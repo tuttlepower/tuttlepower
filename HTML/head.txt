@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head >
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138293260-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-138293260-1');
+  </script>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="description" content="My attempt at sleek web design and learning how to track website activity">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript,Politics,Economics,Python,design">
+  <meta name="author" content="Travis Tuttle">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="icon" href="https://raw.githubusercontent.com/tuttlepower/facehugger/master/facelighting.png" type="Head" sizes="16x16">
+  <link rel="stylesheet" href="Resources/css/foundation.css">
+  <link rel="stylesheet" href="Resources/css/foundation.min.css">
+  <link rel="stylesheet" href="Resources/css/app.css">
+</head>
+<title>TuttlePower</title>

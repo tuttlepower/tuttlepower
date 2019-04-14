@@ -1,0 +1,47 @@
+<body>
+<div class="grid-container align-left">
+  <div class="grid-x grid-padding-x align-left">
+  <div class="large-12 medium-12 small-12 cell">
+  <h1>Home</h1>
+  <p >Words and things. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+</div>
+</div>
+<ul class="bar-graph">
+  <li class="bar-graph-axis">
+    <div class="bar-graph-label">100%</div>
+    <div class="bar-graph-label">80%</div>
+    <div class="bar-graph-label">60%</div>
+    <div class="bar-graph-label">40%</div>
+    <div class="bar-graph-label">20%</div>
+    <div class="bar-graph-label">0%</div>
+  </li>
+  <li class="bar primary" style="height: 10%;" title="10">
+    <div class="percent"><span></span></div>
+    <div class="description">Luck</div>
+  </li>
+  <li class="bar secondary" style="height: 20%;" title="20">
+    <div class="percent"><span></span></div>
+    <div class="description">Skill</div>
+  </li>
+  <li class="bar success" style="height: 15%;" title="15">
+    <div class="percent"><span></span></div>
+    <div class="description">Concentrated power of will</div>
+  </li>
+  <li class="bar warning" style="height: 5%;" title="5">
+    <div class="percent"><span></span></div>
+    <div class="description">Pleasure</div>
+  </li>
+  <li class="bar alert" style="height: 50%;" title="50">
+    <div class="percent"><span></span></div>
+    <div class="description">Pain</div>
+  </li>
+  <li class="bar alert" style="height: 100%;" title="100">
+    <div class="percent"><span></span></div>
+    <div class="description">Reason to remember the name</div>
+  </li>
+</ul>
+<br>
+
+
+</body>
