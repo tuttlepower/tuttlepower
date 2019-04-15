@@ -18,6 +18,7 @@
       <p class="timeline-content-date">4.14.2019</h2>
       <p>Began populating websites, still need to learn how to change the icons on the Timeline</p>
     </div>
+    </div>
 
 
   <!--<div class="timeline-item">
