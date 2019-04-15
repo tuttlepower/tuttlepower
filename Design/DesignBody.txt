@@ -9,6 +9,7 @@
   <img src="Design\Images\UBI.JPG" alt="Univeral Basic Income">
   <img src="Design\Images\Iron paradise.JPG" alt="The Rock>
   <img src="Design\Images\Bad Hombre.JPG" alt="Play on pulp fiction and Trump quotes">
+  <br>
 </div>
 </div>
 </div>
