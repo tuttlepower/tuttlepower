@@ -4,7 +4,7 @@ def webCreator(pageName):
     # write-html.py
     fileName= pageName
 
-    f = open(fileName +'.html','w')
+    f = open('tuttlepower/' + fileName +'.html','w')
 
     #opens the head, which stores metadata, links to css and others
     g = open('tuttlepower\HTML\head.txt','r')
