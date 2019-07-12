@@ -7,16 +7,16 @@ def webCreator(pageName):
     f = open(fileName +'.html','w')
 
     #opens the head, which stores metadata, links to css and others
-    g = open('HTML/head.txt','r')
+    g = open('tuttlepower\HTML\head.txt','r')
 
     #opens the header, which will include logo and top bar (content)
-    h = open(pageName+'/'+pageName+'Header.txt','r')
+    h = open('tuttlepower/' + pageName+'/'+pageName+'Header.txt','r')
 
     #opens the body
-    i = open(pageName+'/'+pageName+'Body.txt','r')
+    i = open('tuttlepower/' + pageName+'/'+pageName+'Body.txt','r')
 
     #opens the footer, which will hold scripts and close out the html
-    j = open('HTML/Footer.txt','r')
+    j = open('tuttlepower/HTML/Footer.txt','r')
 
     #sets a string named head equal to all of the information in g, which is the Head
     head =(g.read())
