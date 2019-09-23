@@ -7,7 +7,7 @@ def webCreator(pageName):
     f = open('tuttlepower/' + fileName +'.html','w')
 
     #opens the head, which stores metadata, links to css and others
-    g = open('tuttlepower\HTML\head.txt','r')
+    g = open('tuttlepower/HTML/head.txt','r')
 
     #opens the header, which will include logo and top bar (content)
     h = open('tuttlepower/' + pageName+'/'+pageName+'Header.txt','r')
