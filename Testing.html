@@ -1,58 +1,166 @@
-<!DOCTYPE html>
 <html>
-  <head>
+
+<head>
+    <meta charset="utf-8" />
+    <title>S2F Test Map</title>
+
+    <!-- Inserts block O to nav bar -->
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="shortcut icon" type="image/x-icon"
+        href="http://www.osu.edu/assets/web/navbar/osu_navbar/images/favicon.ico" />
+
+    <!-- Load Leaflet from CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
+
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@2.3.0/dist/esri-leaflet.js"
+        integrity="sha512-1tScwpjXwwnm6tTva0l0/ZgM3rYNbdyMj5q6RSQMbNX6EUMhYDE3pMRGZaT41zHEvLoWEK7qFEJmZDOoDMU7/Q=="
+        crossorigin=""></script>
+
+    <!-- Load Esri Leaflet Geocoder from CDN, needed for Search Bar -->
+    <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.2.14/dist/esri-leaflet-geocoder.css"
+        integrity="sha512-v5YmWLm8KqAAmg5808pETiccEohtt8rPVMGQ1jA6jqkWVydV5Cuz3nJ9fQ7ittSxvuqsvI9RSGfVoKPaAJZ/AQ=="
+        crossorigin="">
+    <script src="https://unpkg.com/esri-leaflet-geocoder@2.2.14/dist/esri-leaflet-geocoder.js"
+        integrity="sha512-uK5jVwR81KVTGe8KpJa1QIN4n60TsSV8+DPbL5wWlYQvb0/nYNgSOg9dZG6ViQhwx/gaMszuWllTemL+K+IXjg=="
+        crossorigin=""></script>
+    <script type="text/javascript" src="BuildingJson.js"></script>
+
+
     <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
+
     <div id="map"></div>
+
     <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
-          center: {lat:40.00, lng: -83.015},
+        //creates a layer for buildings
+        var buildings = L.esri.featureLayer({
+            //imports data from OSU's buildings database
+            url: 'https://gismaps.osu.edu/arcgis/rest/services/AGOL/BasemapAsFeatures/MapServer/33',
+            simplifyFactor: 0.5,
+            precision: 5,
+            weight: .3,
+            //opacity:1,
+            fillOpacity: .4,
+
+            //assigns colors to different building entities based on maintenance shop
+            style: function (feature) {
+                if (feature.properties.BuildMaint === 'FOD') {
+                    return {
+                        color: 'red',
+                        weight: .1
+                    };
+                } else if (feature.properties.BuildMaint === 'Student Life') {
+                    return {
+                        color: 'blue',
+                        weight: .1
+                    };
+                } else if (feature.properties.BuildMaint === 'OSUWMC') {
+                    return {
+                        color: 'green',
+                        weight: .1
+                    };
+                } else {
+                    return {
+                        color: 'grey',
+                        weight: .1
+                    };
+                }
+            },
         });
-        // Create a <script> tag and set the USGS URL as the source.
-        var script = document.createElement('script');
-        // This example uses a local copy of the GeoJSON stored at
-        // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
-        script.src = 'https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js';
-        document.getElementsByTagName('head')[0].appendChild(script);
-        map.data.setStyle(function(feature) {
-          var magnitude = feature.getProperty('mag');
-          return {
-            icon: getCircle(magnitude)
-          };
+
+        //binds popups to the buildings layer
+        buildings.bindPopup(function (layer) {
+            for (i in buildingJSON) {
+                if (Number(layer.feature.properties.BldgNumber) == buildingJSON[i].BuildingNumber) {
+                    return L.Util.template(
+                        '<div style="line-height:0"><h3>{ComName}</h3><img src="{Link}" height="135px" width="240px"><br><p><b>Address:</b> {Address}</p><p><b>Facility Type:</b> {BuildMaint}</p><p><b>Zone :</b> {Zone}</p><p><b>Building Number :</b> {BldgNumber}</p> <p><b>Work Order System:</b>  <a href="' +
+                        buildingJSON[i].WOSystem + '" target="_blank" >CMS</a></p></div>',
+                        layer.feature.properties);
+                }
+                if (layer.feature.properties.BuildMaint === 'OSUWMC') {
+                    return L.Util.template(
+                        '<div style="line-height:0"><h3>{ComName}</h3><img src="{Link}" height="135px" width="240px"><p><b>Address:</b> {Address}</p><p><b>Facility Type:</b> {BuildMaint}</p><p><b>Zone :</b> {Zone}</p><p><b>Building Number :</b> {BldgNumber}</p></div>',
+                        layer.feature.properties)
+                }
+            }
+
         });
-      }
-      function getCircle(magnitude) {
-        return {
-          path: google.maps.SymbolPath.CIRCLE,
-          fillColor: 'red',
-          fillOpacity: .2,
-          scale: Math.pow(2, magnitude) / 2,
-          strokeColor: 'white',
-          strokeWeight: .5
+        //Placeholder
+        var Test = L.layerGroup();
+
+        //uses esri basemaplayers to get a light theme and streets
+        var grayscale = L.esri.basemapLayer('Gray'),
+            nationalGeographic = L.esri.basemapLayer('NationalGeographic')
+        darkmode = L.esri.basemapLayer('DarkGray');
+
+        //creates map and sets the view to OSU
+        var map = L.map('map', {
+            center: [40.000823481406954, -83.02537039514612],
+            zoom: 15,
+            layers: [grayscale, buildings, Test]
+        });
+
+        //gives different basemap options
+        var baseLayers = {
+            "Grayscale": grayscale,
+            "Dark Mode": darkmode,
+            "National Geographic": nationalGeographic,
         };
-      }
-      function eqfeed_callback(results) {
-        map.data.addGeoJson(results);
-      }
+
+        //different layers can be placed here, allowing them to be seen and hidden 
+        var overlays = {
+            //"buildings": buildings,
+            "Test": Test
+        };
+
+        //inserts layers to map
+        L.control.layers(baseLayers, overlays).addTo(map);
+
+        //inserts generic searchbar
+        var arcgisOnline = L.esri.Geocoding.arcgisOnlineProvider();
+        L.esri.Geocoding.geosearch({
+            useMapBounds: false,
+            zoomToResult: true,
+            expanded: false,
+            providers: [
+                arcgisOnline,
+                L.esri.Geocoding.featureLayerProvider({
+                    url: 'https://gismaps.osu.edu/arcgis/rest/services/AGOL/BasemapAsFeatures/MapServer/33',
+                    searchFields: ['ComName', 'Address', 'BLDG_NAME', 'City'],
+                    label: 'Ohio State Buildings',
+                    bufferRadius: 5000,
+
+                    formatSuggestion: function (feature) {
+                        // search results 
+                        // cut "+ ' - ' + feature.properties.BuildMaint" but may want to re-add it
+                        return feature.properties.ComName;
+                    }
+                })
+            ]
+        }).addTo(map);
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBVYoRfEfNEkn9xwUdI_1JKNAG4I1LkbO8&callback=initMap">
-    </script>
-  </body>
+
+</body>
+
 </html>
