@@ -1,166 +1,75 @@
-<html>
+<!doctype html>
+<html lang="en">
+<head >
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138293260-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-138293260-1');
+  </script>
 
-<head>
-    <meta charset="utf-8" />
-    <title>S2F Test Map</title>
-
-    <!-- Inserts block O to nav bar -->
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <link rel="shortcut icon" type="image/x-icon"
-        href="http://www.osu.edu/assets/web/navbar/osu_navbar/images/favicon.ico" />
-
-    <!-- Load Leaflet from CDN -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-        crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-        crossorigin=""></script>
-
-    <!-- Load Esri Leaflet from CDN -->
-    <script src="https://unpkg.com/esri-leaflet@2.3.0/dist/esri-leaflet.js"
-        integrity="sha512-1tScwpjXwwnm6tTva0l0/ZgM3rYNbdyMj5q6RSQMbNX6EUMhYDE3pMRGZaT41zHEvLoWEK7qFEJmZDOoDMU7/Q=="
-        crossorigin=""></script>
-
-    <!-- Load Esri Leaflet Geocoder from CDN, needed for Search Bar -->
-    <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.2.14/dist/esri-leaflet-geocoder.css"
-        integrity="sha512-v5YmWLm8KqAAmg5808pETiccEohtt8rPVMGQ1jA6jqkWVydV5Cuz3nJ9fQ7ittSxvuqsvI9RSGfVoKPaAJZ/AQ=="
-        crossorigin="">
-    <script src="https://unpkg.com/esri-leaflet-geocoder@2.2.14/dist/esri-leaflet-geocoder.js"
-        integrity="sha512-uK5jVwR81KVTGe8KpJa1QIN4n60TsSV8+DPbL5wWlYQvb0/nYNgSOg9dZG6ViQhwx/gaMszuWllTemL+K+IXjg=="
-        crossorigin=""></script>
-    <script type="text/javascript" src="BuildingJson.js"></script>
-
-
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        #map {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-        }
-    </style>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="description" content="My attempt at sleek web design and learning how to track website activity">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript,Politics,Economics,Python,design">
+  <meta name="author" content="Travis Tuttle">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="icon" href="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/Resources/Images/facelighting.png" type="Head" sizes="16x16">
+  <link rel="stylesheet" href="Resources/css/foundation.css">
+  <link rel="stylesheet" href="Resources/css/foundation.min.css">
+  <link rel="stylesheet" href="Resources/css/app.css">
 </head>
-
+<title>TuttlePower</title><header>
+  <!-- Inserts Logo-->
+  <div class="grid-container">
+  <div class="grid-x grid-padding-x align-center">
+  <div class="large-12 medium-12 small-12 cell logo">
+   <img  src="Resources\Images\tuttlepower1.png" alt="Logo">
+ </div>
+</div>
+</header>
+<ul class="menu menu-hover-lines align-center">
+  <li class="active"><a href="index">Home</a></li>
+  <li><a href="Economics">Economics</a></li>
+  <li><a href="Design">Design</a></li>
+  <li><a href="Politics">Politics</a></li>
+  <li><a href="Programming">Programming</a></li>
+</ul>
+<br>
 <body>
+<div class="grid-container align-left">
+  <div class="grid-x grid-padding-x align-left">
+  <div class="large-12 medium-12 small-12 cell">
+  <h1>Home</h1>
+  <p>Internet Famous</p>
+  <p> Why have this page at all? Mostly to practice "web development" so I can feel somewhat productive when I am bored. I wrote a
+<a href="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/pageCreator.py" alt="my python page pageCreator.py program">Python</a> program to create my pages as well. </p>
+</div>
+</div>
+</div>
 
-    <div id="map"></div>
+<br>
 
-    <script>
-        //creates a layer for buildings
-        var buildings = L.esri.featureLayer({
-            //imports data from OSU's buildings database
-            url: 'https://gismaps.osu.edu/arcgis/rest/services/AGOL/BasemapAsFeatures/MapServer/33',
-            simplifyFactor: 0.5,
-            precision: 5,
-            weight: .3,
-            //opacity:1,
-            fillOpacity: .4,
-
-            //assigns colors to different building entities based on maintenance shop
-            style: function (feature) {
-                if (feature.properties.BuildMaint === 'FOD') {
-                    return {
-                        color: 'red',
-                        weight: .1
-                    };
-                } else if (feature.properties.BuildMaint === 'Student Life') {
-                    return {
-                        color: 'blue',
-                        weight: .1
-                    };
-                } else if (feature.properties.BuildMaint === 'OSUWMC') {
-                    return {
-                        color: 'green',
-                        weight: .1
-                    };
-                } else {
-                    return {
-                        color: 'grey',
-                        weight: .1
-                    };
-                }
-            },
-        });
-
-        //binds popups to the buildings layer
-        buildings.bindPopup(function (layer) {
-            for (i in buildingJSON) {
-                if (Number(layer.feature.properties.BldgNumber) == buildingJSON[i].BuildingNumber) {
-                    return L.Util.template(
-                        '<div style="line-height:0"><h3>{ComName}</h3><img src="{Link}" height="135px" width="240px"><br><p><b>Address:</b> {Address}</p><p><b>Facility Type:</b> {BuildMaint}</p><p><b>Zone :</b> {Zone}</p><p><b>Building Number :</b> {BldgNumber}</p> <p><b>Work Order System:</b>  <a href="' +
-                        buildingJSON[i].WOSystem + '" target="_blank" >CMS</a></p></div>',
-                        layer.feature.properties);
-                }
-                if (layer.feature.properties.BuildMaint === 'OSUWMC') {
-                    return L.Util.template(
-                        '<div style="line-height:0"><h3>{ComName}</h3><img src="{Link}" height="135px" width="240px"><p><b>Address:</b> {Address}</p><p><b>Facility Type:</b> {BuildMaint}</p><p><b>Zone :</b> {Zone}</p><p><b>Building Number :</b> {BldgNumber}</p></div>',
-                        layer.feature.properties)
-                }
-            }
-
-        });
-        //Placeholder
-        var Test = L.layerGroup();
-
-        //uses esri basemaplayers to get a light theme and streets
-        var grayscale = L.esri.basemapLayer('Gray'),
-            nationalGeographic = L.esri.basemapLayer('NationalGeographic')
-        darkmode = L.esri.basemapLayer('DarkGray');
-
-        //creates map and sets the view to OSU
-        var map = L.map('map', {
-            center: [40.000823481406954, -83.02537039514612],
-            zoom: 15,
-            layers: [grayscale, buildings, Test]
-        });
-
-        //gives different basemap options
-        var baseLayers = {
-            "Grayscale": grayscale,
-            "Dark Mode": darkmode,
-            "National Geographic": nationalGeographic,
-        };
-
-        //different layers can be placed here, allowing them to be seen and hidden 
-        var overlays = {
-            //"buildings": buildings,
-            "Test": Test
-        };
-
-        //inserts layers to map
-        L.control.layers(baseLayers, overlays).addTo(map);
-
-        //inserts generic searchbar
-        var arcgisOnline = L.esri.Geocoding.arcgisOnlineProvider();
-        L.esri.Geocoding.geosearch({
-            useMapBounds: false,
-            zoomToResult: true,
-            expanded: false,
-            providers: [
-                arcgisOnline,
-                L.esri.Geocoding.featureLayerProvider({
-                    url: 'https://gismaps.osu.edu/arcgis/rest/services/AGOL/BasemapAsFeatures/MapServer/33',
-                    searchFields: ['ComName', 'Address', 'BLDG_NAME', 'City'],
-                    label: 'Ohio State Buildings',
-                    bufferRadius: 5000,
-
-                    formatSuggestion: function (feature) {
-                        // search results 
-                        // cut "+ ' - ' + feature.properties.BuildMaint" but may want to re-add it
-                        return feature.properties.ComName;
-                    }
-                })
-            ]
-        }).addTo(map);
-    </script>
 
 </body>
-
 </html>
+<footer>
+  <div class="rounded-social-buttons">
+  <a class="social-button facebook" href="https://www.facebook.com/Travie.Trav2015" alt="Facebook"><i class="fab fa-facebook-f"></i></a>
+  <a class="social-button twitter" href="https://twitter.com/TuttlePower" alt="Twitter"><i class="fab fa-twitter"></i></a>
+  <a class="social-button linkedin" href="https://www.linkedin.com/in/travistuttle/" alt="linkedin"><i class="fab fa-linkedin-in"></i></a>
+  <!--<a class="social-button youtube" href="#" alt="youtube"><i class="fab fa-youtube"></i></a>-->
+  <a class="social-button instagram" href="https://www.instagram.com/tuttle_power/" alt="instagram"><i class="fab fa-instagram"></i></a>
+  <a class="social-button github" href="https://github.com/tuttlepower" alt="github"><i class="fab fa-github"></i></a>
+  <!--<a class="social-button snapchat" href="https://www.snapchat.com/add/tuttle.power" alt="snapchat"><i class="fab fa-snapchat-ghost"></i></a> If you're looking in here I guess you can have it-->
+</div>
+</footer>
+<script src="./Resources/js\app.js"></script>
+<script src="./Resources/js\vendor\foundation.js"></script>
+<script src="./Resources/js\vendor\foundation.min.js"></script>
+<script src="./Resources/js\vendor\jquery.js"></script>
+<script src="./Resources/js\vendor\what-input.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
