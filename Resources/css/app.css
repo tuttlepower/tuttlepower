@@ -299,7 +299,8 @@
           flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #c1502e; }
+    
+    background-color: #9d2503; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }

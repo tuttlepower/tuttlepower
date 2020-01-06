@@ -1,72 +1,118 @@
-<!doctype html>
-<html lang="en">
-<head >
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138293260-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-138293260-1');
-  </script>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="description" content="My attempt at sleek web design and learning how to track website activity">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript,Politics,Economics,Python,design">
-  <meta name="author" content="Travis Tuttle">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="icon" href="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/Resources/Images/facelighting.png" type="Head" sizes="16x16">
-  <link rel="stylesheet" href="Resources/css/foundation.css">
-  <link rel="stylesheet" href="Resources/css/foundation.min.css">
-  <link rel="stylesheet" href="Resources/css/app.css">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Tuttlepower</title>
+	<meta name="author" content="Travis" />
+	<meta name="description" content="Home page Tuttlepower with other example project links" />
+	<meta name="keywords" content="Economics,Maps" />
+	<link rel="icon"
+		href="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/Resources/Images/facelighting.png"
+		type="Head" sizes="16x16">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="Resources/css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="Resources/css/examples.css" />
+	<link rel="stylesheet" href="Resources/css/foundation.css">
+	<link rel="stylesheet" href="Resources/css/foundation.min.css">
+	<link rel="stylesheet" href="Resources/css/app.css">
+	<style>
+		img {
+			
+			border: 5px solid rgb(0, 0, 0);
+			
+		}
+	</style>
 </head>
-<title>TuttlePower</title><header>
-  <!-- Inserts Logo-->
-  <div class="grid-container">
-  <div class="grid-x grid-padding-x align-center">
-  <div class="large-12 medium-12 small-12 cell logo">
-   <img  src="Resources\Images\tuttlepower1.png" alt="Logo">
- </div>
-</div>
-</header>
-<ul class="menu menu-hover-lines align-center">
-  <li class="active"><a href="index">Home</a></li>
-  <li><a href="Economics">Economics</a></li>
-  <li><a href="Design">Design</a></li>
-  <li><a href="Politics">Politics</a></li>
-  <li><a href="Programming">Programming</a></li>
-</ul>
-<br>
+
 <body>
-<div class="grid-container align-left">
-  <div class="grid-x grid-padding-x align-left">
-  <div class="large-12 medium-12 small-12 cell">
-  <h1>Home</h1>
-  <p>Internet Famous</p>
-  <p> Why have this page at all? Mostly to practice "web development" so I can feel somewhat productive when I am bored. I wrote a
-<a href="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/pageCreator.py" alt="my python page pageCreator.py program">Python</a> program to create my pages as well. </p>
-</div>
-</div>
-</div>
 
-<br>
+	<ul id="menu" class="menu menu-hover-lines align-left ">
+		<li class="active" data-menuanchor="Home"><a href="#Home">Home</a></li>
+		<li data-menuanchor="Maps"><a href="#Maps">Maps</a></li>
+		<li data-menuanchor="Economics"><a href="#Economics">Economics</a></li>
+		<li data-menuanchor="Space"><a href="#Space">Space</a></li>
+		<li data-menuanchor="AboutMe"><a href="#AboutMe">About Me</a></li>
+	</ul>
 
+
+	<div id="fullpage">
+		<div class="section " id="home">
+			<h1>Home Slide</h1>
+			<p>Create a navigation for your landscape sliders</p>
+		</div>
+
+		<div class="section" id="maps">
+			<div class="slide" id="slide1" data-anchor="slide1">
+				<h1>Maps Page</h1>
+				<p>
+					You can even click on the navigation and jump directly to another section.
+				</p>
+			</div>
+			<div class="slide" id="slide2" data-anchor="slide2">
+				<h1>Slide 2</h1>
+			</div>
+			<div class="slide" id="slide3" data-anchor="slide3">
+				<h1>Slide 3</h1>
+			</div>
+		</div>
+
+		<div class="section" id="economics">
+			<h1>Enjoy it</h1>
+		</div>
+
+		<div class="section" id="space">
+			<h1>Space</h1>
+		</div>
+
+		<div class="section" id="aboutme">
+			<h1>About Me</h1>
+			<p>Hello</p>
+			<div><img src="https://pbs.twimg.com/profile_images/1171964864979460097/QyW__lFS_400x400.jpg" border="5"
+					alt="Twitter profile" style="width:20%;">
+			</div>
+			<br>
+			<div class="rounded-social-buttons">
+				<a class="social-button facebook" href="https://www.facebook.com/Travie.Trav2015" alt="Facebook"><i
+						class="fab fa-facebook-f"></i></a>
+				<a class="social-button twitter" href="https://twitter.com/TuttlePower" alt="Twitter"><i
+						class="fab fa-twitter"></i></a>
+				<a class="social-button linkedin" href="https://www.linkedin.com/in/travistuttle/" alt="linkedin"><i
+						class="fab fa-linkedin-in"></i></a>
+				<!--<a class="social-button youtube" href="#" alt="youtube"><i class="fab fa-youtube"></i></a>-->
+				<a class="social-button instagram" href="https://www.instagram.com/tuttle_power/" alt="instagram"><i
+						class="fab fa-instagram"></i></a>
+				<a class="social-button github" href="https://github.com/tuttlepower" alt="github"><i
+						class="fab fa-github"></i></a>
+				<!--<a class="social-button snapchat" href="https://www.snapchat.com/add/tuttle.power" alt="snapchat"><i class="fab fa-snapchat-ghost"></i></a> If you're looking in here I guess you can have it-->
+			</div>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="Resources/js/fullpage.js"></script>
+	<script type="text/javascript" src="Resources/js/examples.js"></script>
+
+	<script type="text/javascript">
+		var myFullpage = new fullpage('#fullpage', {
+			anchors: ['Home', 'Maps', 'Economics', 'Space', 'AboutMe', ],
+			menu: '#menu',
+			sectionsColor: ['#7fa998', '#dededc', '#ced9d5', '#dededc', '#ced9d5'],
+			slidesNavigation: true,
+		});
+	</script>
 
 </body>
+
 </html>
-<footer class ="footer">
-  <div class="rounded-social-buttons">
-  <a class="social-button facebook" href="https://www.facebook.com/Travie.Trav2015" alt="Facebook"><i class="fab fa-facebook-f"></i></a>
-  <a class="social-button twitter" href="https://twitter.com/TuttlePower" alt="Twitter"><i class="fab fa-twitter"></i></a>
-  <a class="social-button linkedin" href="https://www.linkedin.com/in/travistuttle/" alt="linkedin"><i class="fab fa-linkedin-in"></i></a>
-  <!--<a class="social-button youtube" href="#" alt="youtube"><i class="fab fa-youtube"></i></a>-->
-  <a class="social-button instagram" href="https://www.instagram.com/tuttle_power/" alt="instagram"><i class="fab fa-instagram"></i></a>
-  <a class="social-button github" href="https://github.com/tuttlepower" alt="github"><i class="fab fa-github"></i></a>
-  <!--<a class="social-button snapchat" href="https://www.snapchat.com/add/tuttle.power" alt="snapchat"><i class="fab fa-snapchat-ghost"></i></a> If you're looking in here I guess you can have it-->
-</div>
-</footer>
+
+<script src="Resources/js\app.js"></script>
 <script src="./Resources/js\app.js"></script>
 <script src="./Resources/js\vendor\foundation.js"></script>
 <script src="./Resources/js\vendor\foundation.min.js"></script>
