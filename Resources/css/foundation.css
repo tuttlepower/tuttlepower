@@ -77,8 +77,11 @@ sub {
 sup {
   top: -0.5em; }
 
-img {
-  border-style: none; }
+  img {
+
+    border: 5px solid rgb(0, 0, 0);
+
+  }
 
 button,
 input,
