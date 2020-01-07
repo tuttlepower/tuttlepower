@@ -77,11 +77,8 @@ sub {
 sup {
   top: -0.5em; }
 
-  img {
-
-    border: 5px solid rgb(0, 0, 0);
-
-  }
+img {
+  border-style: none; }
 
 button,
 input,
@@ -2268,11 +2265,11 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #1779ba;
+  color: #00477b;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1468a0; }
+    color: #00477b; }
   a img {
     border: 0; }
 
