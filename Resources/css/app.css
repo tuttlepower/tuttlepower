@@ -1,5 +1,11 @@
 @charset "UTF-8";
-
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 .test {
   background-color: #918b71;
   background-image: url("https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/cartographer.png");
