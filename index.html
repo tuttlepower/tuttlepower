@@ -13,21 +13,45 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-
-
-
 	<link rel="stylesheet" type="text/css" href="Resources/css/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="Resources/css/examples.css" />
 	<link rel="stylesheet" href="Resources/css/foundation.css">
 	<link rel="stylesheet" href="Resources/css/foundation.min.css">
 	<link rel="stylesheet" href="Resources/css/app.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:600|PT+Sans:700|Tinos:700i&display=swap" rel="stylesheet"> 
+
 	<style>
 		img {
 
-border: 5px solid rgb(0, 0, 0);
+			border: 5px solid rgb(0, 0, 0);
 
-}
+		}
 
+		h1 {
+			font-size: 4em;
+			font-family: 'Tinos', serif;
+			color: #a84300;
+			margin: 0;
+		}
+
+		.intro p {
+			color: #fff;
+		}
+
+		/* Centered texts in each section
+    * --------------------------------------- */
+		.section {
+			text-align: center;
+			background-image: url("https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/cartographer.png");
+
+		}
+
+		/* Bottom menu
+    * --------------------------------------- */
+		#infoMenu li a {
+			color: #fff;
+		}
 	</style>
 </head>
 
@@ -44,73 +68,9 @@ border: 5px solid rgb(0, 0, 0);
 
 	<div id="fullpage">
 		<div class="section test" id="home">
-			<h1>Home Slide</h1>
-			<p>Create a navigation for your landscape sliders</p>
-		</div>
-
-		<div class="section test" id="maps">
-			<div class="slide" id="slide1" data-anchor="slide1">
-				<h1>Maps</h1>
-				<p>
-					A collection of projects using <a href="https://leafletjs.com/"  target="_blank">Leaflet.js</a>
-				</p>
-			</div>
-
-			<div class="slide" id="slide2" data-anchor="slide2">
-				<h1>
-					<a href="https://tuttlepower.github.io/VotingMap/"  target="_blank">Vote Map</a>
-					</h1>
-				<div><img src="https://raw.githubusercontent.com/tuttlepower/VotingMap/master/VoteMap.PNG"
-					alt="Vote Map" style="width:50%;">
-			</div>
-			</div>
-
-			<div class="slide" id="slide3" data-anchor="slide3">
-				<h1>
-					<a href="https://tuttlepower.github.io/S2F-Maps/Maps/index.html"  target="_blank">OSU Map</a>
-					</h1>
-				<div><img src="https://raw.githubusercontent.com/tuttlepower/S2F-Maps/master/OSUMap.PNG"
-					alt="S2F Map" style="width:60%;">
-			</div>
-			</div>
-			<div class="slide" id="slide4" data-anchor="slide4">
-				<h1>
-					<a href="https://tuttlepower.github.io/BorderCrossing/"  target="_blank">Heat Map</a>
-					</h1>
-				<div><img src="https://raw.githubusercontent.com/tuttlepower/BorderCrossing/master/Heatmap.PNG"
-					alt="heatmap" style="width:60%;">
-			</div>
-			</div>
-			<div class="slide" id="slide5" data-anchor="slide5">
-				<h1>
-					<a href="https://tuttlepower.github.io/BorderCrossing/Cluster.html"  target="_blank">Cluster Map</a>
-					</h1>
-				<div><img src="https://raw.githubusercontent.com/tuttlepower/BorderCrossing/master/Clustermap.PNG"
-					alt="heatmap" style="width:60%;">
-			</div>
-			</div>
-		</div>
-
-		<div class="section test" id="economics">
-			<h1>Economics</h1>
-		</div>
-
-		<div class="section test" id="space">
-			<h1>Space</h1>
-			<img src="https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-					alt="space" style="width:30%;">
-		</div>
-
-		<div class="section test" id="aboutme">
-			<!-- h1>About Me</h1-->
-
-			<p><a href="https://www.osu.edu/"  target="_blank">The Ohio State University</a>
-				: Economics <br>
-			Incoming Software Engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan" target="_blank">JP Morgan Chase & Co.</a><br>
-			Thinker</p>
-			
+			<h1>Travis Tuttle</h1>
 			<div><img src="https://pbs.twimg.com/profile_images/1171964864979460097/QyW__lFS_400x400.jpg"
-					alt="Twitter profile" style="width:20%;">
+					alt="Twitter profile" style="width:25%;">
 			</div>
 			<br>
 			<footer>
@@ -129,6 +89,71 @@ border: 5px solid rgb(0, 0, 0);
 					<!--<a class="social-button snapchat" href="https://www.snapchat.com/add/tuttle.power" alt="snapchat"><i class="fab fa-snapchat-ghost"></i></a> If you're looking in here I guess you can have it-->
 				</div>
 			</footer>
+
+		</div>
+
+		<div class="section test" id="maps">
+			<div class="slide" id="slide1" data-anchor="slide1">
+				<h1>Maps</h1>
+				<p>
+					A collection of projects using <a href="https://leafletjs.com/" target="_blank">Leaflet.js</a>
+				</p>
+			</div>
+
+			<div class="slide" id="slide2" data-anchor="slide2">
+				<h1>
+					<a href="https://tuttlepower.github.io/VotingMap/" target="_blank">Vote Map</a>
+				</h1>
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/VotingMap/master/VoteMap.PNG"
+						alt="Vote Map" style="width:50%;">
+				</div>
+			</div>
+
+			<div class="slide" id="slide3" data-anchor="slide3">
+				<h1>
+					<a href="https://tuttlepower.github.io/S2F-Maps/Maps/index.html" target="_blank">OSU Map</a>
+				</h1>
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/S2F-Maps/master/OSUMap.PNG" alt="S2F Map"
+						style="width:60%;">
+				</div>
+			</div>
+			<div class="slide" id="slide4" data-anchor="slide4">
+				<h1>
+					<a href="https://tuttlepower.github.io/BorderCrossing/" target="_blank">Heat Map</a>
+				</h1>
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/BorderCrossing/master/Heatmap.PNG"
+						alt="heatmap" style="width:60%;">
+				</div>
+			</div>
+			<div class="slide" id="slide5" data-anchor="slide5">
+				<h1>
+					<a href="https://tuttlepower.github.io/BorderCrossing/Cluster.html" target="_blank">Cluster Map</a>
+				</h1>
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/BorderCrossing/master/Clustermap.PNG"
+						alt="heatmap" style="width:60%;">
+				</div>
+			</div>
+		</div>
+
+		<div class="section test" id="economics">
+			<h1>Economics</h1>
+		</div>
+
+		<div class="section test" id="space">
+			<h1>Space</h1>
+			<img src="https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+				alt="space" style="width:30%;">
+		</div>
+
+		<div class="section test" id="aboutme">
+			<!-- h1>About Me</h1-->
+
+			<p><a href="https://www.osu.edu/" target="_blank">The Ohio State University</a>
+				: Economics <br>
+				Incoming Software Engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
+					target="_blank">JP Morgan Chase & Co.</a><br>
+				Thinker</p>
+
 
 		</div>
 
