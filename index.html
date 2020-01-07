@@ -19,9 +19,20 @@
 	<link rel="stylesheet" href="Resources/css/foundation.min.css">
 	<link rel="stylesheet" href="Resources/css/app.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:600|PT+Sans:700|Tinos:700i&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:600|PT+Sans:700|Tinos:700i&display=swap"
+		rel="stylesheet">
 
 	<style>
+		p {
+			color: black;
+			font-family: 'Tinos', serif;
+		}
+
+		a {
+			color: #00477b;
+
+		}
+
 		img {
 
 			border: 5px solid #c64937;
@@ -61,17 +72,15 @@
 		<li class="active" data-menuanchor="Home"><a href="#Home">Home</a></li>
 		<li data-menuanchor="Maps"><a href="#Maps">Maps</a></li>
 		<li data-menuanchor="Economics"><a href="#Economics">Economics</a></li>
-		<li data-menuanchor="Space"><a href="#Space">Space</a></li>
+		<li data-menuanchor="Travel"><a href="#Travel">Travel</a></li>
 		<li data-menuanchor="AboutMe"><a href="#AboutMe">About Me</a></li>
 	</ul>
 
 
 	<div id="fullpage">
 		<div class="section test" id="home">
-			<h1>Travis Tuttle</h1>
-			<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/profilePicture.jpg"
-					alt="Twitter profile" style="width:25%;">
-			</div>
+			<h1>--- Travis Tuttle ---</h1>
+
 			<br>
 			<footer>
 				<div class="rounded-social-buttons">
@@ -89,10 +98,10 @@
 					<!--<a class="social-button snapchat" href="https://www.snapchat.com/add/tuttle.power" alt="snapchat"><i class="fab fa-snapchat-ghost"></i></a> If you're looking in here I guess you can have it-->
 				</div>
 			</footer>
-
 		</div>
 
 		<div class="section test" id="maps">
+
 			<div class="slide" id="slide1" data-anchor="slide1">
 				<h1>Maps</h1>
 				<p>
@@ -104,8 +113,8 @@
 				<h1>
 					<a href="https://tuttlepower.github.io/VotingMap/" target="_blank">Vote Map</a>
 				</h1>
-				<div><img src="https://raw.githubusercontent.com/tuttlepower/VotingMap/master/VoteMap.PNG"
-						alt="Vote Map" style="width:50%;">
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/VoteMapExample.PNG"
+						alt="Vote Map" style="width:60%;">
 				</div>
 			</div>
 
@@ -113,15 +122,15 @@
 				<h1>
 					<a href="https://tuttlepower.github.io/S2F-Maps/Maps/index.html" target="_blank">OSU Map</a>
 				</h1>
-				<div><img src="https://raw.githubusercontent.com/tuttlepower/S2F-Maps/master/OSUMap.PNG" alt="S2F Map"
-						style="width:60%;">
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/S2FExample.PNG"
+						alt="S2F Map" style="width:60%;">
 				</div>
 			</div>
 			<div class="slide" id="slide4" data-anchor="slide4">
 				<h1>
 					<a href="https://tuttlepower.github.io/BorderCrossing/" target="_blank">Heat Map</a>
 				</h1>
-				<div><img src="https://raw.githubusercontent.com/tuttlepower/BorderCrossing/master/Heatmap.PNG"
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/HeatMapExample.PNG"
 						alt="heatmap" style="width:60%;">
 				</div>
 			</div>
@@ -129,7 +138,7 @@
 				<h1>
 					<a href="https://tuttlepower.github.io/BorderCrossing/Cluster.html" target="_blank">Cluster Map</a>
 				</h1>
-				<div><img src="https://raw.githubusercontent.com/tuttlepower/BorderCrossing/master/Clustermap.PNG"
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/ClusterMapExample.PNG"
 						alt="heatmap" style="width:60%;">
 				</div>
 			</div>
@@ -139,14 +148,36 @@
 			<h1>Economics</h1>
 		</div>
 
-		<div class="section test" id="space">
-			<h1>Space</h1>
-			<img src="https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-				alt="space" style="width:30%;">
+		<div class="section test" id="travel">
+			<div class="slide" id="slide1" data-anchor="slide1">
+			<h1>Travel</h1>
+			<p> Hoping to add a lot to this section soon.</p>
 		</div>
+		
+
+		<div class="slide" id="slide2" data-anchor="slide2">
+			<h1>
+				Columbus
+			</h1>
+		</div>
+		<div class="slide" id="slide3" data-anchor="slide3">
+			<h1>
+				Chicago
+			</h1>
+		</div>
+		<div class="slide" id="slide2" data-anchor="slide2">
+			<h1>
+				New York
+			</h1>
+		</div>
+	</div>
+
 
 		<div class="section test" id="aboutme">
-			<!-- h1>About Me</h1-->
+			<h1>About Me</h1>
+			<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/profilePicture.jpg"
+					alt="Twitter profile" style="width:25%;">
+			</div>
 
 			<p><a href="https://www.osu.edu/" target="_blank">The Ohio State University</a>
 				: Economics <br>
@@ -164,9 +195,9 @@
 
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
-			anchors: ['Home', 'Maps', 'Economics', 'Space', 'AboutMe', ],
+			anchors: ['Home', 'Maps', 'Economics', 'Travel', 'AboutMe', ],
 			menu: '#menu',
-			sectionsColor: ['#a29b7e', '#ffe3b9', '#ced9d5', '#dededc', '#ced9d5'],
+			sectionsColor: ['#a29b7e', '#ffe3b9', '#d2a876', '#ffe3b9', '#d2a876'],
 			slidesNavigation: true,
 		});
 	</script>
