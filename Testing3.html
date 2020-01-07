@@ -3,28 +3,21 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Normal scrolling - fullPage.js</title>
-    <meta name="author" content="Alvaro Trigo Lopez" />
-    <meta name="description" content="fullPage full-screen normal scrolling with autoScrolling." />
-    <meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,normal scroll,autoscrolling, scroll" />
-    <meta name="Resource-type" content="Document" />
+    <title>Tuttlepower</title>
+    <meta name="author" content="Travis" />
+    <meta name="description" content="Home page Tuttlepower with other example project links" />
+    <meta name="keywords" content="Economics,Maps" />
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/Resources/Images/facelighting.png"
+        type="Head" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="Resources\css\foundation.css">
-    <link rel="stylesheet" href="Resources\css\foundation.min.css">
-    <link rel="stylesheet" href="Resources\css\fullpage.css" />
-    <link rel="stylesheet" href="Resources\css\examples.css" />
-    <link rel="stylesheet" href="Resources\css\app.css">
-
-    <script src="Resources\js\app.js"></script>
-    <script src="Resources\js\vendor\foundation.js"></script>
-    <script src="Resources\js\vendor\foundation.min.js"></script>
-    <script src="Resources\js\vendor\jquery.js"></script>
-    <script src="Resources\js\vendor\what-input.js"></script>
-    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-    
-    <script type="text/javascript" src="Resources\js\fullpage.js"></script>
-    <script type="text/javascript" src="Resources\js\examples.js"></script>
-    <link rel="stylesheet" href="Resources\css\app.css">
+    <link rel="stylesheet" type="text/css" href="Resources/css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="Resources/css/examples.css" />
+    <link rel="stylesheet" href="Resources/css/foundation.css">
+    <link rel="stylesheet" href="Resources/css/foundation.min.css">
+    <link rel="stylesheet" href="Resources/css/app.css">
 
     <style>
         /* Style for our header texts
@@ -62,13 +55,13 @@
 </head>
 
 <body>
-
-
-    <ul id="menu">
-        <li data-menuanchor="Home" class="active"><a href="#Home">Home</a></li>
-        <li data-menuanchor="Maps"><a href="#Maps">Maps</a></li>
-        <li data-menuanchor="AboutMe"><a href="#AboutMe"> About Me</a></li>
-    </ul>
+    <ul id="menu" class="menu menu-hover-lines align-left ">
+		<li class="active" data-menuanchor="Home"><a href="#Home">Home</a></li>
+		<li data-menuanchor="Maps"><a href="#Maps">Maps</a></li>
+		<li data-menuanchor="Economics"><a href="#Economics">Economics</a></li>
+		<li data-menuanchor="Space"><a href="#Space">Space</a></li>
+		<li data-menuanchor="AboutMe"><a href="#AboutMe">About Me</a></li>
+	</ul>
 
     <div id="fullpage">
         <div class="section " id="section0">
@@ -117,19 +110,27 @@
 
     
 
-    <script type="text/javascript">
-        var myFullpage = new fullpage('#fullpage', {
-            menu: '#menu',
-            anchors: ['Home', 'Maps', 'AboutMe'],
-            sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
-            //autoScrolling: false,
-            //navigation: true,
-            //navigationPosition: 'top',
-            //slidesNavPosition: 'bottom',
-            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
-        });
-    </script>
+    
+    <script type="text/javascript" src="Resources/js/fullpage.js"></script>
+	<script type="text/javascript" src="Resources/js/examples.js"></script>
 
+	<script type="text/javascript">
+		var myFullpage = new fullpage('#fullpage', {
+			anchors: ['Home', 'Maps', 'Economics', 'Space', 'AboutMe', ],
+			menu: '#menu',
+			sectionsColor: ['#a29b7e', '#d2a876', '#ced9d5', '#dededc', '#ced9d5'],
+			slidesNavigation: true,
+		});
+	</script>
 </body>
 
 </html>
+<script src="Resources\js\app.js"></script>
+<script src="Resources\js\vendor\foundation.js"></script>
+<script src="Resources\js\vendor\foundation.min.js"></script>
+<script src="Resources\js\vendor\jquery.js"></script>
+<script src="Resources\js\vendor\what-input.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript" src="Resources\js\fullpage.js"></script>
+<script type="text/javascript" src="Resources\js\examples.js"></script>
