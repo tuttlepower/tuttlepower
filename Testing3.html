@@ -2,137 +2,263 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Tuttlepower</title>
-    <meta name="author" content="Travis" />
-    <meta name="description" content="Home page Tuttlepower with other example project links" />
-    <meta name="keywords" content="Economics,Maps" />
-    <link rel="icon"
-        href="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/Resources/Images/facelighting.png"
-        type="Head" sizes="16x16">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Tuttlepower</title>
+	<meta name="author" content="Travis" />
+	<meta name="description" content="Home page Tuttlepower with other example project links" />
+	<meta name="keywords" content="Economics,Maps" />
+	<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+	<link rel="icon"
+		href="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/Resources/Images/facelighting.png"
+		type="Head" sizes="16x16">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="Resources/css/fullpage.css" />
-    <link rel="stylesheet" type="text/css" href="Resources/css/examples.css" />
-    <link rel="stylesheet" href="Resources/css/foundation.css">
-    <link rel="stylesheet" href="Resources/css/foundation.min.css">
-    <link rel="stylesheet" href="Resources/css/app.css">
+	<link rel="stylesheet" type="text/css" href="Resources/css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="Resources/css/examples.css" />
+	<link rel="stylesheet" href="Resources/css/foundation.css">
+	<link rel="stylesheet" href="Resources/css/foundation.min.css">
+	<link rel="stylesheet" href="Resources/css/app.css">
 
-    <style>
-        /* Style for our header texts
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:600|PT+Sans:700|Tinos:700i&display=swap"
+		rel="stylesheet">
+
+	<style>
+		p {
+			color: black;
+			font-family: 'Tinos', serif;
+		}
+
+		a {
+			color: #00477b;
+
+		}
+
+		img {
+			border: 5px solid #f39d00;
+			border: 5px solid #c64937;
+
+
+		}
+
+		h1 {
+			font-size: 6em;
+			font-family: 'Tinos', serif;
+
+
+			color: #f39d00;
+			color: #c64937;
+			
+			
+			margin: 0;
+
+			text-shadow: 2px 0 0 #f39d00, -2px 0 0 #f39d00, 0 2px 0 #f39d00, 0 -2px 0 #f39d00, 1px 1px #f39d00, -1px -1px 0 #f39d00, 1px -1px 0 #f39d00, -1px 1px 0 #f39d00;
+			text-shadow: 2px 0 0 #c64937, -2px 0 0 #c64937, 0 2px 0 #c64937, 0 -2px 0 #c64937, 1px 1px #c64937, -1px -1px 0 #c64937, 1px -1px 0 #c64937, -1px 1px 0 #c64937;
+			text-shadow: 2px 0 0 black;
+		}
+
+
+		.intro p {
+			color: #fff;
+		}
+
+		.homecss {
+			background-image: url("https://www.transparenttextures.com/patterns/gray-floral.png");
+		}
+
+		.mapscss {
+			background-image: url("https://www.transparenttextures.com/patterns/old-mathematics.png");
+			background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+
+
+		}
+
+		.economicscss {
+			background-image: url("https://www.transparenttextures.com/patterns/old-mathematics.png");
+			background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+		}
+
+		.travelcss {
+			background-image: url("https://www.transparenttextures.com/patterns/old-mathematics.png");
+			background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+		}
+
+		.aboutmecss {
+			background-image: url("https://www.transparenttextures.com/patterns/old-mathematics.png");
+			background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+		}
+
+		/* Centered texts in each section
     * --------------------------------------- */
-        h1 {
-            font-size: 5em;
-            font-family: arial, helvetica;
-            color: #fff;
-            margin: 0;
-        }
+		.section {
+			text-align: center;
 
-        .intro p {
-            color: #fff;
-        }
+		}
 
-        /* Centered texts in each section
+		/* Bottom menu
     * --------------------------------------- */
-        .section {
-            text-align: center;
-            background-image: url("https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/3px-tile.png");
-
-        }
-
-
-        /* Bottom menu
-    * --------------------------------------- */
-        #infoMenu li a {
-            color: #fff;
-        }
-    </style>
-
-    <!--[if IE]>
-        <script type="text/javascript">
-             var console = { log: function() {} };
-        </script>
-    <![endif]-->
+		#infoMenu li a {
+			color: #fff;
+		}
+	</style>
 </head>
 
 <body>
-    <ul id="menu" class="menu menu-hover-lines align-left ">
+
+	<ul id="menu" class="menu menu-hover-lines align-left ">
 		<li class="active" data-menuanchor="Home"><a href="#Home">Home</a></li>
 		<li data-menuanchor="Maps"><a href="#Maps">Maps</a></li>
 		<li data-menuanchor="Economics"><a href="#Economics">Economics</a></li>
-		<li data-menuanchor="Space"><a href="#Space">Space</a></li>
+		<li data-menuanchor="Travel"><a href="#Travel">Travel</a></li>
 		<li data-menuanchor="AboutMe"><a href="#AboutMe">About Me</a></li>
 	</ul>
 
-    <div id="fullpage">
-        <div class="section " id="section0">
-            <div class="intro">
 
-                <h1>Travis Tuttle</h1>
-                <div class="rounded-social-buttons">
-                    <a class="social-button facebook" href="https://www.facebook.com/Travie.Trav2015" alt="Facebook"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="social-button twitter" href="https://twitter.com/TuttlePower" alt="Twitter"><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="social-button linkedin" href="https://www.linkedin.com/in/travistuttle/" alt="linkedin"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <!--<a class="social-button youtube" href="#" alt="youtube"><i class="fab fa-youtube"></i></a>-->
-                    <a class="social-button instagram" href="https://www.instagram.com/tuttle_power/" alt="instagram"><i
-                            class="fab fa-instagram"></i></a>
-                    <a class="social-button github" href="https://github.com/tuttlepower" alt="github"><i
-                            class="fab fa-github"></i></a>
-                    <!--<a class="social-button snapchat" href="https://www.snapchat.com/add/tuttle.power" alt="snapchat"><i class="fab fa-snapchat-ghost"></i></a> If you're looking in here I guess you can have it-->
-                </div>
-            </div>
-        </div>
-        <div class="section" id="section1">
-            <div class="slide" id="slide1">
-                <div class="intro">
-                    <h1>URL get updated (#)</h1>
-                    <p>
-                        Easy to bookmark and share
-                    </p>
-                </div>
-            </div>
+	<div id="fullpage">
+		<div class="section homecss" id="home">
+			<h1>Travis Tuttle</h1>
 
-            <div class="slide" id="slide2">
-                <h1>Horizontal sliders!</h1>
+			<br>
+			<footer>
+				<div class="rounded-social-buttons">
+					<a class="social-button facebook" href="https://www.facebook.com/Travie.Trav2015" alt="Facebook"><i
+							class="fab fa-facebook-f"></i></a>
+					<a class="social-button twitter" href="https://twitter.com/TuttlePower" alt="Twitter"><i
+							class="fab fa-twitter"></i></a>
+					<a class="social-button linkedin" href="https://www.linkedin.com/in/travistuttle/" alt="linkedin"><i
+							class="fab fa-linkedin-in"></i></a>
+					<!--<a class="social-button youtube" href="#" alt="youtube"><i class="fab fa-youtube"></i></a>-->
+					<a class="social-button instagram" href="https://www.instagram.com/tuttle_power/" alt="instagram"><i
+							class="fab fa-instagram"></i></a>
+					<a class="social-button github" href="https://github.com/tuttlepower" alt="github"><i
+							class="fab fa-github"></i></a>
+					<!--<a class="social-button snapchat" href="https://www.snapchat.com/add/tuttle.power" alt="snapchat"><i class="fab fa-snapchat-ghost"></i></a> If you're looking in here I guess you can have it-->
+				</div>
+			</footer>
+		</div>
 
-            </div>
+		<div class="section homecss" id="maps">
 
-        </div>
-        <div class="section" id="section2">
-            <div class="intro">
-                <h1>Just use </h1>
-                <p>autoScrolling:false</p>
-            </div>
-        </div>
-    </div>
+			<div class="slide" id="slide1" data-anchor="slide1">
+				<h1>Maps</h1>
+				<p>
+					A collection of projects using <a href="https://leafletjs.com/" target="_blank">Leaflet.js</a>
+				</p>
+			</div>
 
-    
+			<div class="slide" id="slide2" data-anchor="slide2">
+				<h1>
+					<a href="https://tuttlepower.github.io/VotingMap/" target="_blank">Vote Map</a>
+				</h1>
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/VoteMapExample.PNG"
+						alt="Vote Map" style="width:60%;">
+				</div>
+			</div>
 
-    
-    <script type="text/javascript" src="Resources/js/fullpage.js"></script>
+			<div class="slide" id="slide3" data-anchor="slide3">
+				<h1>
+					<a href="https://tuttlepower.github.io/S2F-Maps/Maps/index.html" target="_blank">OSU Map</a>
+				</h1>
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/S2FExample.PNG"
+						alt="S2F Map" style="width:60%;">
+				</div>
+			</div>
+			<div class="slide" id="slide4" data-anchor="slide4">
+				<h1>
+					<a href="https://tuttlepower.github.io/BorderCrossing/" target="_blank">Heat Map</a>
+				</h1>
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/HeatMapExample.PNG"
+						alt="heatmap" style="width:60%;">
+				</div>
+			</div>
+			<div class="slide" id="slide5" data-anchor="slide5">
+				<h1>
+					<a href="https://tuttlepower.github.io/BorderCrossing/Cluster.html" target="_blank">Cluster Map</a>
+				</h1>
+				<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/ClusterMapExample.PNG"
+						alt="heatmap" style="width:60%;">
+				</div>
+			</div>
+		</div>
+
+		<div class="section homecss" id="economics">
+			<h1>Economics</h1>
+			<p>
+				<p style="background-color:#918b71;">Field Note Drab #918b71</p>
+				<p style="background-color:#a84300;">Yeti Rust #a84300</p>
+				<p style="background-color:#9c6450;">Thursday Boot Brown #9c6450</p>
+				<p style="background-color:#d2a876;">Field Note Tan #d2a876</p>
+				<p style="background-color:#ffe3b9;">Field Note Sand #ffe3b9</p>
+				<p style="background-color:#00477b;">JP Morgan Blue #00477b</h1>
+					<p style="background-color:#c64937;">Field Note Red #c64937</p>
+					<p style="background-color:#f39d00;">Honey #f39d00</p>
+
+				</p>
+		</div>
+
+		<div class="section homecss" id="travel">
+			<div class="slide" id="slide1" data-anchor="slide1">
+				<h1>Travel</h1>
+				<p> Hoping to add a lot to this section soon.</p>
+			</div>
+
+
+			<div class="slide" id="slide2" data-anchor="slide2">
+				<h1>
+					Columbus
+				</h1>
+			</div>
+			<div class="slide" id="slide3" data-anchor="slide3">
+				<h1>
+					Chicago
+				</h1>
+			</div>
+			<div class="slide" id="slide2" data-anchor="slide2">
+				<h1>
+					New York
+				</h1>
+			</div>
+		</div>
+
+
+		<div class="section homecss " id="aboutme">
+			<h1>About Me</h1> <br>
+			<div><img src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/profilePicture.jpg"
+					alt="Twitter profile" style="width:25%;">
+
+			</div>
+
+			<p><a href="https://www.osu.edu/" target="_blank">The Ohio State University</a>
+				: Economics <br>
+				Incoming Software Engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
+					target="_blank">JP Morgan Chase & Co.</a><br></p>
+		</div>
+
+
+	</div>
+
+	<script type="text/javascript" src="Resources/js/fullpage.js"></script>
 	<script type="text/javascript" src="Resources/js/examples.js"></script>
+
+
 
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
-			anchors: ['Home', 'Maps', 'Economics', 'Space', 'AboutMe', ],
+			anchors: ['Home', 'Maps', 'Economics', 'Travel', 'AboutMe', ],
 			menu: '#menu',
-			sectionsColor: ['#a29b7e', '#d2a876', '#ced9d5', '#dededc', '#ced9d5'],
+			sectionsColor: ['#918b71', '#bab8ad', '#bab8ad', '#bab8ad', '#bab8ad'],
 			slidesNavigation: true,
 		});
 	</script>
+
 </body>
 
 </html>
-<script src="Resources\js\app.js"></script>
-<script src="Resources\js\vendor\foundation.js"></script>
-<script src="Resources\js\vendor\foundation.min.js"></script>
-<script src="Resources\js\vendor\jquery.js"></script>
-<script src="Resources\js\vendor\what-input.js"></script>
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 
-<script type="text/javascript" src="Resources\js\fullpage.js"></script>
-<script type="text/javascript" src="Resources\js\examples.js"></script>
+<script src="Resources/js\app.js"></script>
+<script src="./Resources/js\app.js"></script>
+<script src="./Resources/js\vendor\foundation.js"></script>
+<script src="./Resources/js\vendor\foundation.min.js"></script>
+<script src="./Resources/js\vendor\jquery.js"></script>
+<script src="./Resources/js\vendor\what-input.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>

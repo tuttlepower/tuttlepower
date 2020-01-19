@@ -6,9 +6,9 @@
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-.test {
-  background-color: #918b71;
-  background-image: url("https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/cartographer.png");
+.backfilter {
+ 
+  background-image: url("gray-floral.png");
 }
 
 .bar-graph {
@@ -463,6 +463,7 @@ screen and (min-width: 40em) {
   content: '';
   transition: all 0.35s ease;
   background-color: #c64937;
+  
   width: 0;
 }
 
