@@ -27,15 +27,20 @@ while y < 1000000:
         taxes.append(46628.50+((y-204100)*.35))
     if y > 510300:
         taxes.append(153798.50+((y-510300)*.37))
-
     y=y+1
 
+# Uses Numpy to concotenate the data, must be the same length.
 y = np.vstack([income,taxes])
-
+# Labels for Legend
 labels = ["Income ", "Taxes",]
-
 fig, ax = plt.subplots()
+# Stacks data
 ax.stackplot(x, income,taxes, labels=labels)
+# Inserts legend
 ax.legend(loc='upper left')
+# Add grid
 ax.grid(True)
+# Add title
+plt.title('Federal Taxes at Different Income Levels')
+
 plt.show()
