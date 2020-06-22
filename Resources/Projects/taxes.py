@@ -43,4 +43,10 @@ ax.grid(True)
 # Add title
 plt.title('Federal Taxes at Different Income Levels')
 
+
+ax.set_xticks([9700, 39475, 84200, 160725, 204100, 510300])
+ax.xaxis.grid(True, color='red')
+
+
+
 plt.show()
