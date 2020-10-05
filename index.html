@@ -77,16 +77,14 @@
 
 	<ul id="menu" class="menu menu-hover-lines align-center ">
 		<li class="active" data-menuanchor="Home"><a href="#Home">Home</a></li>
-		<li data-menuanchor="Maps"><a href="#Maps">Maps</a></li>
-		<li data-menuanchor="Economics"><a href="#Economics">Economics</a></li>
-		<li data-menuanchor="Travel"><a href="#Travel">Travel</a></li>
+		<li data-menuanchor="Projects"><a href="#Projects">Projects</a></li>
 		<li data-menuanchor="AboutMe"><a href="#AboutMe">About Me</a></li>
 	</ul>
 
 
 	<div id="fullpage">
 		<div class="section backfilter" id="home">
-			<h1>Travis Tuttle</h1>
+			<h1 style="font-size:10vh;">Travis Tuttle</h1>
 
 			<br>
 			<footer>
@@ -107,13 +105,10 @@
 			</footer>
 		</div>
 
-		<div class="section backfilter" id="maps">
+		<div class="section backfilter" id="projects">
 
 			<div class="slide" id="slide1" data-anchor="slide1">
-				<h1>Maps</h1>
-				<p>
-					A collection of projects using <a href="https://leafletjs.com/" target="_blank">Leaflet.js</a>
-				</p>
+				<h1>Projects</h1>
 			</div>
 
 			<div class="slide" id="slide2" data-anchor="slide2">
@@ -155,58 +150,15 @@
 			</div>
 		</div>
 
-		<div class="section backfilter" id="economics">
-			<div class="slide" id="slide1" data-anchor="slide1">
-				<h1>Economics</h1>
-			</div>
-
-
-			<div class="slide" id="slide2" data-anchor="slide2">
-				<h1><a href="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/Resources/Projects/taxes.py" target="_blank">Federal Taxes by Income </a>
-				</h1>
-				<p>Only for Single filers, and only Federal taxes. Also only goes up to 1,000,000 so I don't fry my laptop. Another issue I just noticed is that this just stacks the taxes on top instead of showing it as a portion of income</p>
-				<div><img
-					src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/Resources/Images/roughtaxesgraph.png"
-					alt="rough taxes graph" style="width:60%;">
-			</div>
-			</div>
-		</div>
-
-		<div class="section backfilter" id="travel">
-			<div class="slide" id="slide1" data-anchor="slide1">
-				<h1>Travel</h1>
-				<p> Hoping to add a lot to this section soon.</p>
-			</div>
-
-
-			<div class="slide" id="slide2" data-anchor="slide2">
-				<h1>
-					Columbus
-				</h1>
-			</div>
-			<div class="slide" id="slide3" data-anchor="slide3">
-				<h1>
-					Chicago
-				</h1>
-			</div>
-			<div class="slide" id="slide2" data-anchor="slide2">
-				<h1>
-					New York
-				</h1>
-			</div>
-		</div>
-
-
 		<div class="section backfilter" id="aboutme">
-			<h1>About Me</h1> <br>
 			<div><img
 					src="https://raw.githubusercontent.com/tuttlepower/tuttlepower/master/Resources/Images/profilePicture.jpg"
-					alt="Twitter profile" style="width:25%;">
+					alt="Twitter profile" style="height:60vh;">
 			</div>
 
 			<p><a href="https://www.osu.edu/" target="_blank">The Ohio State University</a>
 				: Economics <br>
-				Incoming Software Engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
+				Software Engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan"
 					target="_blank">JP
 					Morgan Chase & Co.</a><br></p>
 
@@ -220,9 +172,9 @@
 
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
-			anchors: ['Home', 'Maps', 'Economics', 'Travel', 'AboutMe', ],
+			anchors: ['Home', 'Projects','AboutMe', ],
 			menu: '#menu',
-			sectionsColor: ['#918b71', '#bab8ad', '#bab8ad', '#bab8ad', '#bab8ad'],
+			sectionsColor: ['#918b71', '#bab8ad', '#bab8ad'],
 			slidesNavigation: true,
 		});
 	</script>
