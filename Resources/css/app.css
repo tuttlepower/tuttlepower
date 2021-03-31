@@ -276,20 +276,20 @@ screen and (min-width: 40em) {
   border-color: #000000;
 }
 
-.rounded-social-buttons .social-button.snapchat {
-  background: #fffc00;
+.rounded-social-buttons .social-button.lichess {
+  background: #864747;
 }
 
-.rounded-social-buttons .social-button.snapchat:before {
+.rounded-social-buttons .social-button.lichess:before {
   font-family: "FontAwesome";
   content: "";
 }
 
-.rounded-social-buttons .social-button.snapchat:hover,
-.rounded-social-buttons .social-button.snapchat:focus {
-  color: #fffc00;
+.rounded-social-buttons .social-button.lichess:hover,
+.rounded-social-buttons .social-button.lichess:focus {
+  color: #864747;
   background: transparent;
-  border-color: #fffc00;
+  border-color: #864747;
 }
 
 .menu-text li:hover {
