@@ -1,3 +1,63 @@
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/U6Zzlcsk"]
+[Date "2021.04.01"]
+[White "PatElon"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.04.01"]
+[UTCTime "14:36:13"]
+[WhiteElo "1342"]
+[BlackElo "1365"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+11"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "C53"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. b4 Bxf2+ 7. Kxf2 Ng4+ 8. Ke1 Ne7 9. Bg5 h6 10. Bh4 g5 11. Bg3 d6 12. h3 Ne3 13. Qe2 Nxc4 14. dxc4 Be6 15. Na3 f5 16. exf5 Nxf5 17. Qf2 a5 18. b5 c6 19. h4 cxb5 20. hxg5 bxc4 21. gxh6 Kh7 22. Ng5+ Qxg5 23. Nb5 Nxg3 24. Qxf8 Rxf8 25. Rh3 Qe3+ 26. Kd1 Rf1+ 27. Kc2 Qd3+ 0-1
+
+
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/64cTr4nq"]
+[Date "2021.04.01"]
+[White "ArhltLU3000CMS"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.04.01"]
+[UTCTime "14:28:58"]
+[WhiteElo "1382"]
+[BlackElo "1354"]
+[WhiteRatingDiff "-75"]
+[BlackRatingDiff "+11"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "A36"]
+[Termination "Normal"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 d6 6. Nf3 Nf6 7. d4 cxd4 8. exd4 O-O 9. d5 Ne5 10. Nd4 Nxc4 11. O-O Bg4 12. Qd3 Ne5 13. Qe3 Qa5 14. Bd2 b5 15. Ne4 Nxd5 16. Qe1 Qb6 17. Bc3 Bh3 18. Qe2 Bxg2 19. Kxg2 b4 20. Bd2 Qxd4 21. Rad1 Qxb2 22. Rb1 Qxa2 23. Bxb4 Nxb4 24. Rxb4 Qxe2 0-1
+
+
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/ILufS165"]
+[Date "2021.04.01"]
+[White "TuttlePower"]
+[Black "SiroCaruso"]
+[Result "0-1"]
+[UTCDate "2021.04.01"]
+[UTCTime "14:23:53"]
+[WhiteElo "1363"]
+[BlackElo "1452"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+5"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "A45"]
+[Termination "Normal"]
+
+1. d4 d5 2. Nc3 Nf6 3. e3 Nc6 4. Bd3 e5 5. Nf3 e4 6. Ne5 exd3 7. Qxd3 Nxe5 8. dxe5 Ng4 9. O-O Nxe5 10. Qb5+ c6 11. Qa4 Qg5 12. e4 Nf3+ 13. Kh1 Nd2 14. Re1 Be6 15. exd5 O-O-O 16. dxe6 fxe6 17. Qxa7 Bd6 18. Rxe6 Qh5 19. g3 Nf3 20. Be3 Qxh2# 0-1
+
+
 [Event "Rated Classical game"]
 [Site "https://lichess.org/qnknODvJ"]
 [Date "2021.03.31"]
