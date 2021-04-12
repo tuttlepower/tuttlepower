@@ -699,7 +699,7 @@ p {
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vincenzo_Camuccini_-_La_morte_di_Cesare.jpg/1920px-Vincenzo_Camuccini_-_La_morte_di_Cesare.jpg");
-    height: 50%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
