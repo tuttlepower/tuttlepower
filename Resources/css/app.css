@@ -688,7 +688,7 @@ screen and (min-width: 40em) {
 }
 body,
 html {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     font-family: "Times New Roman", Times, serif;
 }
