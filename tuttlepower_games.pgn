@@ -1,4 +1,44 @@
 [Event "Rated Blitz game"]
+[Site "https://lichess.org/Q44FJk5s"]
+[Date "2021.04.17"]
+[White "TuttlePower"]
+[Black "dwoods404"]
+[Result "1-0"]
+[UTCDate "2021.04.17"]
+[UTCTime "13:36:27"]
+[WhiteElo "1495"]
+[BlackElo "1524"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "D01"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bf4 Bf5 4. Nf3 Nc6 5. e3 e6 6. Bb5 Bd6 7. Bxd6 Qxd6 8. O-O O-O 9. Bd3 Ne7 10. Ne5 c6 11. Bxf5 Nxf5 12. Ne2 b5 13. Ng3 Nxg3 14. fxg3 a5 15. Qf3 c5 16. Ng4 c4 17. Nxf6+ gxf6 18. Qxf6 Rad8 19. Qg5+ Kh8 20. Qf6+ Kg8 21. h4 e5 22. Qxd6 Rxd6 23. dxe5 Re6 24. Rf5 f6 25. exf6 Rfxf6 26. Rxd5 Rxe3 27. Kh2 Rf2 28. Rg1 Rxc2 29. Rxb5 Ree2 30. Rxa5 Rxb2 31. Ra8+ Kg7 32. Ra7+ Kf6 33. Rxh7 Rxa2 34. Rh6+ Kf5 35. Rc6 Rac2 36. Rf1+ Ke4 37. Rf4+ Kd3 38. Rd6+ Ke3 39. Re6+ Kd3 40. Rxe2 Rxe2 41. Rf3+ Re3 42. Rf4 c3 43. Rf8 c2 44. Rd8+ Kc3 45. Rc8+ Kb2 46. Rb8+ Kc1 47. h5 Kd2 48. Rd8+ Rd3 49. Rc8 c1=Q 50. Rxc1 Kxc1 51. Kh3 Rd8 52. g4 Kd2 53. g3 Ke3 54. Kh4 Ke4 55. g5 Kf5 56. h6 Rh8 57. Kh5 Ke6 58. g4 Kf7 59. g6+ Kf6 60. g5+ Kf5 61. g7 Ra8 62. h7 Ke6 63. Kh6 Ra6 64. h8=Q Kf5+ 65. g6 Rxg6+ 66. Kh7 Kg5 67. Kg8 Kf6 68. Qh7 Rxg7+ 69. Qxg7+ Ke6 70. Qf7+ 1-0
+
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/o6iPuNp4"]
+[Date "2021.04.17"]
+[White "TuttlePower"]
+[Black "jamiryooo06"]
+[Result "0-1"]
+[UTCDate "2021.04.17"]
+[UTCTime "13:32:50"]
+[WhiteElo "1500"]
+[BlackElo "1501"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "D00"]
+[Termination "Normal"]
+
+1. d4 d5 2. Nc3 Nc6 3. Bf4 e6 4. e4 dxe4 5. Nxe4 Qxd4 6. Qxd4 Nxd4 7. Bxc7 Nxc2+ 8. Kd2 Nxa1 9. Bb5+ Bd7 10. Nd6+ Bxd6 11. Bxd6 Bxb5 12. Nf3 Nb3+ 13. axb3 Rd8 14. Kc3 Rxd6 15. Nd4 Bc6 16. Nxc6 Rxc6+ 17. Kb4 Rb6+ 18. Ka3 Nf6 19. b4 Ke7 20. Rc1 Rc6 21. Rxc6 bxc6 22. Ka4 Rb8 23. Ka5 Rb6 24. b5 cxb5 25. b4 Kd6 26. f4 Rc6 27. Kxb5 Rc2 28. Ka6 Rxg2 29. Kxa7 Rb2 30. h4 Rxb4 31. f5 exf5 32. h5 Nxh5 33. Ka6 Rc4 34. Ka5 Rc5+ 35. Kb4 Nf4 36. Kb3 Ne6 37. Kb4 f4 38. Kb3 f3 39. Kb2 f2 40. Kb1 f1=Q+ 41. Kb2 h5 42. Kb3 g5 43. Kb4 f5 44. Ka4 h4 45. Ka3 g4 46. Kb4 f4 47. Kb3 f3 48. Ka3 g3 49. Ka2 h3 50. Kb2 h2 51. Kb3 h1=Q 52. Ka2 g2 53. Ka3 g1=Q 54. Kb3 Qe1 55. Kb2 f2 56. Ka2 f1=Q 57. Kb3 Qb5+ 58. Ka3 Qea5# 0-1
+
+
+[Event "Rated Blitz game"]
 [Site "https://lichess.org/5iERHguB"]
 [Date "2021.04.16"]
 [White "TuttlePower"]
