@@ -25,3 +25,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
       run: python hello_world.py
+    - name: Test Env
+      run: |
+        echo 'The GitHub Action Secret will be masked:  '
+        echo ${{ secrets.GITHUB_TOKEN }}
