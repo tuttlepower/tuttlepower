@@ -9,3 +9,4 @@ ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
 ACCESS_TOKEN_SECRET = os.environ['ACCESS_TOKEN_SECRET']
 
 print(CONSUMER_KEY)
+print('The File Ran!')
