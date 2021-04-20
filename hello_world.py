@@ -1,3 +1,4 @@
 import tweepy
+import os
 print('Hello World!')
-print(secrets.consumer_key)
+print(os.environ['CONSUMER_KEY'])
