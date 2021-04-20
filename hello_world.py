@@ -1,3 +1,3 @@
 import tweepy
 print('Hello World!')
-print(consumer_key)
+print(CONSUMER_KEY)
