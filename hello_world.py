@@ -49,40 +49,48 @@ saved = [325340292708454401,
          256580152413257729
          ]
 
-#sets up the api to play with Twitter
+# sets up the api to play with Twitter
+
+
 def py_twit_setup():
   # Retreive secrets
-  CONSUMER_KEY = os.environ['CONSUMER_KEY']
-  CONSUMER_SECRET = os.environ['CONSUMER_SECRET']
-  ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
-  ACCESS_TOKEN_SECRET = os.environ['ACCESS_TOKEN_SECRET']
-  # passes unique identification into an authorization to use tweepy
-  auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-  auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-  # returns the auth to automatically plug into tweepy and set api
-  return auth
+    CONSUMER_KEY = os.environ['CONSUMER_KEY']
+    CONSUMER_SECRET = os.environ['CONSUMER_SECRET']
+    ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
+    ACCESS_TOKEN_SECRET = os.environ['ACCESS_TOKEN_SECRET']
+    # passes unique identification into an authorization to use tweepy
+    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+    auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+    # returns the auth to automatically plug into tweepy and set api
+    return auth
 
-# uses unique auth to set up API access 
+
+# uses unique auth to set up API access
 api = tweepy.API(py_twit_setup())
 
 # Deletes an individual tweet
+
+
 def tweet_delete(x):
-  try:
-    api.destroy_status(str(x))
-  except:
-    print('roll with the punches')
-    
+    try:
+        api.destroy_status(str(x))
+    except:
+        print('roll with the punches')
+
 # Get Tweets I want to delete
+
+
 def tweets_to_delete():
-  tweet_list = []
-  for tweet in tweepy.Cursor(api.user_timeline,id='TuttlePower').items():
-    if tweet.favorite_count<=5 and tweet.id not in saved:
-      tweet_list.append(tweet)
-  return tweet_list
+    tweet_list = []
+    for tweet in tweepy.Cursor(api.user_timeline, id='TuttlePower').items():
+        if tweet.favorite_count <= 5 and tweet.id not in saved:
+            tweet_list.append(tweet)
+    return tweet_list
+
 
 # Calls on tweets_to_delete and creates a list
 to_delete = tweets_to_delete()
 
 # iterates through list deleting tweets
 for tweet in to_delete:
-  tweet_delete(tweet.id)
+    tweet_delete(tweet.id)
