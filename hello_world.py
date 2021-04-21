@@ -84,4 +84,4 @@ to_delete = tweets_to_delete()
 
 # loop through tweets and delete
 for tweet in to_delete:
-  tweet_delete(tweet.id)
+  print(tweet.id)
