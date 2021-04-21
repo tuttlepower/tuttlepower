@@ -51,7 +51,7 @@ saved = [325340292708454401,
 
 #sets up the api to play with Twitter
 def py_twit_setup():
-#   Retreive secrets
+  # Retreive secrets
   CONSUMER_KEY = os.environ['CONSUMER_KEY']
   CONSUMER_SECRET = os.environ['CONSUMER_SECRET']
   ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
@@ -82,5 +82,6 @@ def tweets_to_delete():
 
 to_delete = tweets_to_delete()
 
+# loop through tweets and delete
 for tweet in to_delete:
   tweet_delete(tweet.id)
