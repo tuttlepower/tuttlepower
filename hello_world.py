@@ -81,7 +81,7 @@ def tweets_to_delete():
       tweet_list.append(tweet)
   return tweet_list
 
-to_delete = tweets_to_delete()
+tweet_list = tweets_to_delete()
 
 # for tweet in to_delete:
 #   tweet_delete(tweet.id)
