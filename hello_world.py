@@ -49,24 +49,70 @@ saved = [325340292708454401,
 256580152413257729
 ]
 
-print(len(saved))
+# print(len(saved))
 
+# #sets up the api to play with Twitter
+# def py_twit_setup():
+#   # Retreive secrets
+#   CONSUMER_KEY = os.environ['CONSUMER_KEY']
+#   CONSUMER_SECRET = os.environ['CONSUMER_SECRET']
+#   ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
+#   ACCESS_TOKEN_SECRET = os.environ['ACCESS_TOKEN_SECRET']
+#   # passes unique identification into an authorization to use tweepy
+#   auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+#   auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+#   # returns the auth to automatically plug into tweepy and set api
+#   print('Auth')
+#   return auth
+
+# # uses unique auth to set up API access 
+# api = tweepy.API(py_twit_setup())
+
+# # Deletes an individual tweet
+# def tweet_delete(x):
+#   try:
+#     api.destroy_status(str(x))
+#   except:
+#     print('roll with the punches')
+
+# # Get Tweets I want to delete
+# def tweets_to_delete():
+#   tweet_list = []
+#   tweets = tweepy.Cursor(api.user_timeline,id='TuttlePower').items()
+#   for tweet in tweets:
+#     if tweet.favorite_count<=5 and tweet.id not in saved:
+#       tweet_list.append(tweet)
+#   print(len(tweet_list))
+#   return tweet_list
+
+# print('Calling tweets to delete')
+# tweets = tweets_to_delete()
+
+# print(len(tweets))
 #sets up the api to play with Twitter
 def py_twit_setup():
   # Retreive secrets
-  CONSUMER_KEY = os.environ['CONSUMER_KEY']
-  CONSUMER_SECRET = os.environ['CONSUMER_SECRET']
-  ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
-  ACCESS_TOKEN_SECRET = os.environ['ACCESS_TOKEN_SECRET']
+  # CONSUMER_KEY = os.environ['CONSUMER_KEY']
+  # CONSUMER_SECRET = os.environ['CONSUMER_SECRET']
+  # ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
+  # ACCESS_TOKEN_SECRET = os.environ['ACCESS_TOKEN_SECRET']
+  CONSUMER_KEY = "CzHzv5TeNS2W52QsL0U3BgFwB"
+  CONSUMER_SECRET = "tbE8MzTF40VtPE3OV6bTr3lTqLwvcww8pAsgU7z4wUhHdSiCiW"
+  ACCESS_TOKEN = "349457379-OrPZVFFcFMqAVEGdV5J9ZCGXEgy8xSVYbJXhEFNq"
+  ACCESS_TOKEN_SECRET = "E06wgjSzwjerUHoLEbvXSZytJoArXWH48Lp47tMoS2vEi"
   # passes unique identification into an authorization to use tweepy
   auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
   auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
   # returns the auth to automatically plug into tweepy and set api
-  print('Auth')
-  return auth
+  api = tweepy.API(auth)
 
-# uses unique auth to set up API access 
-api = tweepy.API(py_twit_setup())
+  tweet_list = []
+  tweets = tweepy.Cursor(api.user_timeline,id='TuttlePower').items()
+  for tweet in tweets:
+    if tweet.favorite_count<=5 and tweet.id not in saved:
+      tweet_list.append(tweet)
+
+  print(len(tweet_list))
 
 # Deletes an individual tweet
 def tweet_delete(x):
@@ -75,20 +121,9 @@ def tweet_delete(x):
   except:
     print('roll with the punches')
 
-# Get Tweets I want to delete
-def tweets_to_delete():
-  tweet_list = []
-  tweets = tweepy.Cursor(api.user_timeline,id='TuttlePower').items()
-  for tweet in tweets:
-    if tweet.favorite_count<=5 and tweet.id not in saved:
-      tweet_list.append(tweet)
-  print(len(tweet_list))
-  return tweet_list
+py_twit_setup()
 
-print('Calling tweets to delete')
-tweets = tweets_to_delete()
-
-print(len(tweets))
-
+# for tweet in to_delete:
+#   tweet_delete(tweet.id)
 # for tweet in to_delete:
 #   tweet_delete(tweet.id)
