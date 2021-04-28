@@ -49,6 +49,8 @@ saved = [325340292708454401,
 256580152413257729
 ]
 
+print(len(saved))
+
 #sets up the api to play with Twitter
 def py_twit_setup():
   # Retreive secrets
@@ -60,6 +62,7 @@ def py_twit_setup():
   auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
   auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
   # returns the auth to automatically plug into tweepy and set api
+  print('Auth')
   return auth
 
 # uses unique auth to set up API access 
@@ -79,9 +82,13 @@ def tweets_to_delete():
   for tweet in tweets:
     if tweet.favorite_count<=5 and tweet.id not in saved:
       tweet_list.append(tweet)
+  print(len(tweet_list))
   return tweet_list
 
-tweet_list = tweets_to_delete()
+print('Calling tweets to delete')
+tweets = tweets_to_delete()
+
+print(len(tweets))
 
 # for tweet in to_delete:
 #   tweet_delete(tweet.id)
