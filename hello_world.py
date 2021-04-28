@@ -92,14 +92,10 @@ saved = [325340292708454401,
 #sets up the api to play with Twitter
 def py_twit_setup():
   # Retreive secrets
-  # CONSUMER_KEY = os.environ['CONSUMER_KEY']
-  # CONSUMER_SECRET = os.environ['CONSUMER_SECRET']
-  # ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
-  # ACCESS_TOKEN_SECRET = os.environ['ACCESS_TOKEN_SECRET']
-  CONSUMER_KEY = "CzHzv5TeNS2W52QsL0U3BgFwB"
-  CONSUMER_SECRET = "tbE8MzTF40VtPE3OV6bTr3lTqLwvcww8pAsgU7z4wUhHdSiCiW"
-  ACCESS_TOKEN = "349457379-OrPZVFFcFMqAVEGdV5J9ZCGXEgy8xSVYbJXhEFNq"
-  ACCESS_TOKEN_SECRET = "E06wgjSzwjerUHoLEbvXSZytJoArXWH48Lp47tMoS2vEi"
+  CONSUMER_KEY = os.environ['CONSUMER_KEY']
+  CONSUMER_SECRET = os.environ['CONSUMER_SECRET']
+  ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
+  ACCESS_TOKEN_SECRET = os.environ['ACCESS_TOKEN_SECRET']
   # passes unique identification into an authorization to use tweepy
   auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
   auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
