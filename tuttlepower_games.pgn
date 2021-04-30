@@ -1,4 +1,64 @@
 [Event "Rated Blitz game"]
+[Site "https://lichess.org/aKeDbPGt"]
+[Date "2021.04.30"]
+[White "TuttlePower"]
+[Black "SirMayank"]
+[Result "0-1"]
+[UTCDate "2021.04.30"]
+[UTCTime "11:13:38"]
+[WhiteElo "1563"]
+[BlackElo "1570"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "A40"]
+[Termination "Normal"]
+
+1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7 4. Bg5 f6 5. exf6 Nxf6 6. e3 Qb4+ 7. Nfd2 Qxb2 8. Bxf6 gxf6 9. Qh5+ Kd8 10. Be2 Qxa1 11. O-O Qxa2 12. Ne4 Bg7 13. Nbc3 Qxc2 14. Nd5 Qxe4 15. Nf4 d6 16. Bf3 Qe5 17. Qxe5 Nxe5 18. Nd5 Nxf3+ 19. gxf3 Bh3 20. Rb1 b6 21. Rc1 Rc8 22. Nb4 c5 23. Na6 Kd7 24. e4 f5 25. exf5 Bxf5 26. Kg2 Rhg8 27. Kg3 Bb2+ 28. Kf4 Bxc1+ 29. Kxf5 Rcf8+ 30. Ke4 Re8+ 31. Kd5 Rg2 32. f4 Rxf2 33. f5 Rxf5+ 34. Kc4 Rf2 35. h4 Rh2 36. h5 Rh4+ 37. Kb5 Rxh5 38. Kc4 Re4+ 39. Kd3 Rg4 40. Kc2 Rh3 41. Kxc1 Rg2 42. Nb4 Rh1# 0-1
+
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/qmcgQYW8"]
+[Date "2021.04.29"]
+[White "Punk76"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.04.29"]
+[UTCTime "20:16:08"]
+[WhiteElo "1569"]
+[BlackElo "1557"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "C20"]
+[Termination "Normal"]
+
+1. e4 e5 2. Qf3 Nf6 3. h3 Bc5 4. c3 Nc6 5. Be2 d6 6. d3 Be6 7. Qg3 g6 8. b4 Bb6 9. a4 a6 10. a5 Ba7 11. Na3 Qe7 12. Nf3 O-O-O 13. Nd2 d5 14. f3 dxe4 15. fxe4 h5 16. Ndc4 Bxc4 17. Nxc4 g5 18. Be3 Rhg8 19. Bxa7 Nxa7 20. Nxe5 h4 21. Qh2 Nc6 22. Nxc6 bxc6 23. e5 Nd5 24. O-O-O Nxc3 25. Rd2 Nxe2+ 26. Rxe2 Rxd3 27. Rd2 Rc3+ 28. Rc2 Rb3 29. Rb2 Rc3+ 30. Rc2 Ra3 31. Kd2 Rd8+ 32. Ke2 Rdd3 33. Rd1 Re3+ 34. Kf1 Kb7 35. g4 Rf3+ 36. Kg1 Rg3+ 37. Kh1 Rxh3 38. Qxh3 Rxh3+ 39. Kg2 Rg3+ 40. Kh2 Qxe5 41. Rg1 Rc3+ 42. Kh1 Rxc2 43. Rd1 Qh2# 0-1
+
+
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/6KRnOJ83"]
+[Date "2021.04.29"]
+[White "Yacoop"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.04.29"]
+[UTCTime "13:29:06"]
+[WhiteElo "1454"]
+[BlackElo "1461"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-6"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "C46"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Bb4 4. d4 exd4 5. Nxd4 Nxd4 6. Qxd4 Bxc3+ 7. Qxc3 Nf6 8. Bc4 O-O 9. O-O d6 10. e5 dxe5 11. Qxe5 Be6 12. Bxe6 fxe6 13. Bg5 Qd5 14. Rfe1 Ng4 15. Qxe6+ Qxe6 16. Rxe6 h6 17. Bd2 Rad8 18. Bb4 Rxf2 19. Rae1 Rxc2 20. Re8+ Rxe8 21. Rxe8+ Kh7 22. h3 Rc1+ 23. Re1 Rxe1+ 24. Bxe1 Ne3 25. Bf2 Nd1 26. Bxa7 Nxb2 27. Bb8 c6 28. Kf2 b5 29. Ke3 Nc4+ 30. Kd3 g5 31. g4 Kg6 32. Ke4 Kf6 33. Bc7 Nd2+ 34. Kd4 Nf3+ 35. Kc5 Ke6 36. Kxc6 b4 37. Bd6 Nd4+ 38. Kc5 Nc2 39. Bf8 Ke5 40. Bxh6 Kf4 41. Kc4 Ne3+ 42. Kxb4 Kg3 43. Bxg5 Nd5+ 44. Kc4 Nb6+ 45. Kc5 Nd7+ 46. Kb5 Kxh3 47. a4 Kxg4 48. Bd8 Kf5 49. a5 Ke6 50. Bb6 Nb8 51. Ba7 Nd7 52. a6 Kd6 53. Bb8+ Nxb8 54. a7 Kc7 55. a8=Q Kc8 56. Qe4 Nd7 57. Kb4 Kc7 58. Qg4 Ne5 59. Qg7+ Kd6 60. Qb7 Nc6+ 61. Kb5 Nd4+ 62. Kb6 Nc6 63. Qxc6+ Ke5 64. Kc5 Kf4 65. Qd5 Ke3 66. Qc4 Kf3 67. Kd4 Kf2 68. Qc3 Kg2 69. Ke3 Kh1 70. Qb2 Kg1 71. Kf3 Kh1 72. Kg3 Kg1 73. Qb1# 1-0
+
+
+[Event "Rated Blitz game"]
 [Site "https://lichess.org/KrhjwURB"]
 [Date "2021.04.29"]
 [White "TuttlePower"]
@@ -2357,7 +2417,7 @@
 [Event "Rated Blitz game"]
 [Site "https://lichess.org/PDhhfQTx"]
 [Date "2021.04.24"]
-[White "mer1ceyn"]
+[White "Mer1Ceyn"]
 [Black "TuttlePower"]
 [Result "0-1"]
 [UTCDate "2021.04.24"]
