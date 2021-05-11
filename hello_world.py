@@ -86,9 +86,12 @@ def tweets_to_delete():
   return tweet_list
 
 print('Calling tweets to delete')
-tweets = tweets_to_delete()
+try: 
+  tweets = tweets_to_delete()
+  print(len(tweets))
 
-print(len(tweets))
+except:
+  print('Job failed, Action Complete')
 
 # for tweet in to_delete:
 #   tweet_delete(tweet.id)
