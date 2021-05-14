@@ -1,3 +1,63 @@
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/ngQHwj8z"]
+[Date "2021.05.14"]
+[White "TuttlePower"]
+[Black "paoloross2406"]
+[Result "1-0"]
+[UTCDate "2021.05.14"]
+[UTCTime "12:16:34"]
+[WhiteElo "1405"]
+[BlackElo "1454"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "A40"]
+[Termination "Normal"]
+
+1. d4 g6 2. Bf4 Bg7 3. Nc3 Nc6 4. e3 h6 5. Nf3 f6 6. h3 g5 7. Bh2 d6 8. Bb5 Bf5 9. O-O Qd7 10. e4 Be6 11. d5 Nb4 12. Bxd7+ 1-0
+
+
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/dfnjtQAE"]
+[Date "2021.05.13"]
+[White "TuttlePower"]
+[Black "fereshte2017"]
+[Result "0-1"]
+[UTCDate "2021.05.13"]
+[UTCTime "15:08:06"]
+[WhiteElo "1411"]
+[BlackElo "1430"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+5"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "D00"]
+[Termination "Normal"]
+
+1. d4 d5 2. Bf4 Bf5 3. Nc3 e6 4. Nf3 Bb4 5. Bg5 f6 6. Bf4 a6 7. a3 Bd6 8. Bxd6 Qxd6 9. b4 Qc6 10. Qd2 Ne7 11. e3 O-O 12. Bd3 Bxd3 13. cxd3 Nf5 14. e4 dxe4 15. dxe4 Nd6 16. d5 exd5 17. exd5 Qd7 18. O-O c6 19. dxc6 Nxc6 20. Nd5 Nc4 21. Qd3 N4e5 22. Nxe5 Nxe5 23. Nxf6+ gxf6 24. Qxd7 Nxd7 25. Rad1 Ne5 26. f4 Nc4 27. a4 Ne3 28. Rde1 Nxf1 29. Rxf1 Rad8 30. f5 Rd4 31. Rb1 Rf4 32. g4 Rxg4+ 33. Kf2 Rf4+ 34. Kg3 Rxf5 35. Kg4 Rg5+ 36. Kf4 Rh5 37. Rb2 Rc8 38. Kg4 Rg5+ 39. Kh4 Rc4+ 40. Kh3 b6 41. a5 bxa5 42. bxa5 Rc3+ 43. Kh4 Ra3 44. Rb8+ Kg7 45. Rb7+ Kg6 46. Rb6 Raxa5 47. Re6 Ra4+ 48. Kh3 Rh5+ 49. Kg3 a5 50. Re8 Kf7 51. Ra8 Ra3+ 52. Kf4 a4 53. Ra7+ Kg6 54. Ra8 Ra2 55. Rg8+ Kh6 56. Kg4 Rhxh2 57. Rf8 Kg6 58. Rg8+ Kf7 59. Ra8 a3 60. Ra7+ Kg6 61. Ra6 h5+ 62. Kg3 Rhg2+ 63. Kf4 h4 64. Ra8 h3 65. Ke4 h2 66. Rh8 Ra1 67. Rg8+ Kh7 68. Rxg2 h1=Q 69. Kf3 Ra2 70. Kf4 Qxg2 71. Kf5 Qf2+ 72. Ke6 Re2+ 73. Kd5 Rd2+ 74. Kc4 Qd4+ 75. Kb3 Qb2+ 76. Ka4 Rd4+ 77. Ka5 Qb4+ 78. Ka6 Rd6+ 79. Ka7 Qa5+ 80. Kb7 Qb6+ 81. Kc8 Qc6+ 82. Kb8 Rd8+ 83. Ka7 Qa8+ 84. Kb6 a2 85. Kc5 a1=Q 86. Kc4 Qc8+ 87. Kb3 Rd3+ 88. Kb4 Qcc3+ 89. Kb5 Qab2+ 90. Ka4 Qcb4# 0-1
+
+
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/HJZZqk7W"]
+[Date "2021.05.13"]
+[White "PavanRaj6"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.05.13"]
+[UTCTime "15:04:38"]
+[WhiteElo "1358"]
+[BlackElo "1405"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "C55"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nf6 3. Bc4 Nc6 4. Bb5 Bc5 5. O-O Nxe4 6. Bxc6 dxc6 7. Qe1 Bxf2+ 8. Qxf2 Nxf2 9. Rxf2 O-O 10. Nxe5 Be6 11. Nc3 Qg5 12. b3 Qxe5 13. Bb2 Rad8 14. Raf1 c5 15. Nd1 Qd6 0-1
+
+
 [Event "Rated Blitz game"]
 [Site "https://lichess.org/vovLADOK"]
 [Date "2021.05.13"]
@@ -80554,7 +80614,7 @@
 [Site "https://lichess.org/sMWqBDce"]
 [Date "2019.07.28"]
 [White "TuttlePower"]
-[Black "NoRrAsS"]
+[Black "norrass"]
 [Result "1-0"]
 [UTCDate "2019.07.28"]
 [UTCTime "15:06:56"]
