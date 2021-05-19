@@ -72,6 +72,12 @@
                 </div>
                 <div class="hero-text">
                         <div class="rounded-social-buttons">
+                                <!-- Trigger/Open The Modal -->
+                                <button class="social-button medium" id="myBtn" alt="Projects"><i
+                                                class="fas fa-code"></i></button>
+                                <!-- Trigger/Open The Modal -->
+                                <button class="social-button medium" id="myBtn" alt="Projects"><i
+                                                class="fas fa-user"></i></button>
                                 <a class="social-button twitter" href="https://twitter.com/TuttlePower" alt="Twitter"><i
                                                 class="fab fa-twitter"></i></a>
                                 <a class="social-button linkedin" href="https://www.linkedin.com/in/travistuttle/"
@@ -87,9 +93,9 @@
                                         alt="Lichess"><i class="fas fa-chess-rook"></i></a>
                                 <a class="social-button medium" href="https://medium.com/@travistuttle" alt="Medium"><i
                                                 class="fab fa-medium-m"></i></a>
+
                         </div>
-                        <!-- Trigger/Open The Modal -->
-                        <button id="myBtn">Projects</button>
+
                 </div>
         </div>
 
@@ -119,10 +125,7 @@
 
 </body>
 <script>
-        function myFunction() {
-                var element = document.body;
-                element.classList.toggle("dark-mode");
-        }
+   
         // api url
         const api_url =
                 "https://api.github.com/users/tuttlepower/repos";
@@ -172,6 +175,7 @@
 
         // Get the button that opens the modal
         var btn = document.getElementById("myBtn");
+        var amb = document.getElementById("aboutMeButton");
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
@@ -180,6 +184,10 @@
         btn.onclick = function () {
                 modal.style.display = "block";
         }
+        amb.onclick = function () {
+                modal.style.display = "block";
+        }
+
 
         // When the user clicks on <span> (x), close the modal
         span.onclick = function () {

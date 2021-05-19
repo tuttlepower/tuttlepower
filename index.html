@@ -81,58 +81,22 @@
     <div class="container">
         <br>
         <div class="row">
-            <div class="col-sm-4">
-                <img src="https://pbs.twimg.com/profile_images/1345415579142860800/JCqrxXHW_400x400.jpg"
-                    alt="Twitter profile" style="width: inherit;">
-                <a class="twitter-timeline" data-height="750" data-width='inherit' data-theme="dark"
-                    href="https://twitter.com/TuttlePower?ref_src=twsrc%5Etfw">Tweets by TuttlePower</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <div class="col-sm-8">
-                <h2>New Website</h2>
-                <h5>4.1.2021</h5>
-                <p>This website is basically just an abstract task that I give myself every few months as a form of
-                    expression since I'm not good at drawing. But I often use the
-                    <a href="https://www.tuttlepower.com/test.html"> /test </a> endpoint to try out new things. I am
-                    currently trying to flesh out a Chess related project that I want to undertake, and just set up a
-                    scraper to run daily to collect my Lichess games and their results. </p>
-                <p>To throw out the things I usually look for on the numerous personal sites that I click on, I am a
-                    software engineer at <a href="https://www.jpmorgan.com/country/US/en/jpmorgan" target="_blank">JP
-                        Morgan Chase & Co.</a> *all opinions are my own*, and a former undergraduate at <a
-                        href="https://www.osu.edu/" target="_blank">The Ohio State University</a>, I majored in
-                    Economics with a minor in City and Regional Planning. The picture should be my Twitter picture at
-                    the
-                    moment, but if it breaks it's because I was too lazy to set it up to dynamically grab it and
-                    instead just grabbed the url and have since changed profile pictures.</p>
-                <p>There is going to be a lot of dead space under this, I embedded my Twitter feed to make sure
-                    scrolling didn't look dumb, and so I didn't have to leave Lorem Ipsum on my live site. May Try and
-                    get cheesboards with some of the positions of my games to populate in the future.</p>
-                <p>Also, I purposefully chose Times New Roman. </p>
-                <br>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <br>
-            </div>
-            <div class="col-sm-8">
+                <h1>Github Projects</h1>
+                <!-- Here a loader is created which 
+             loads till response comes -->
+                <div class="d-flex justify-content-center">
+                    <div class="spinner-border" role="status" id="loading">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+                <!-- table for showing data -->
+                <table class="table table-dark table-hover" id="employees"></table>
             </div>
         </div>
     </div>
 
-    <!-- Really wanted a footer that had the current year, also wanted to keep the flow bakcground pattern incorporated on the site-->
-    <footer class="jumbotron text-center backfilter">
-        <!-- Trigger the modal with a Link -->
-        <a data-toggle="modal" data-target="#myModal">
-            <h3 id="year"></h3>
-        </a>
-    </footer>
-    <script>
-        var d = new Date();
-        document.getElementById("year").innerHTML = "📈💾♟️🗳️ " + d.getFullYear() + " 🌎🎲⚖️🃏";
-    </script>
+
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -142,23 +106,54 @@
         gtag('js', new Date());
 
         gtag('config', 'G-8W8L407W93');
+         // api url
+         const api_url =
+                "https://api.github.com/users/tuttlepower/repos";
+
+        // Defining async function
+        async function getapi(url) {
+
+                // Storing response
+                const response = await fetch(url);
+
+                // Storing data in form of JSON
+                var data = await response.json();
+                console.log(data);
+                if (response) {
+                        hideloader();
+                }
+                show(data);
+        }
+        // Calling that async function
+        getapi(api_url);
+
+        // Function to hide the loader
+        function hideloader() {
+                document.getElementById('loading').style.display = 'none';
+        }
+        // Function to define innerHTML for HTML table
+        function show(data) {
+                let tab =
+                        `<tr>
+		<th>Name</th>
+		<th>Description</th>
+		</tr>`;
+
+                // Loop to access all rows
+                for (let r of data) {
+                        tab += `<tr>
+	<td><a href =${r.html_url}>${r.name}</a></td>
+	<td>${r.description}</td>
+        		
+</tr>`;
+                }
+                // Setting innerHTML as tab variable
+                document.getElementById("employees").innerHTML = tab;
+        }
     </script>
-    <!-- Secret Modal for funsies -->
-    <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
+    </div>
 
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <p>You are incredibly thorough! Please send me a message if you actually found this! There is no
-                        reward.</p>
-                </div>
-            </div>
-
-        </div>
+    </div>
     </div>
 </body>
 
