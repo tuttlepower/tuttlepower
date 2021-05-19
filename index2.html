@@ -3,66 +3,126 @@
 
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tuttlepower</title>
         <meta name="author" content="Travis Tuttle" />
         <meta name="description" content="Home page Tuttlepower with links to personal projects" />
         <meta name="keywords" content="Economics, Maps, Software, Chess, Flask" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="icon" href="./Resources/images/facelighting.png" type="Head" sizes="16x16">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
                 integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
                 crossorigin="anonymous">
         <link rel="stylesheet" href="Resources/css/app.css">
-        <link rel="stylesheet" type="text/css" href="Resources/css/bootstrap.min.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+                /* ModL */
+                /* The Modal (background) */
+                .modal {
+                        display: none;
+                        /* Hidden by default */
+                        position: fixed;
+                        /* Stay in place */
+                        z-index: 1;
+                        /* Sit on top */
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        /* Full width */
+                        height: 100%;
+                        /* Full height */
+                        overflow: auto;
+                        /* Enable scroll if needed */
+                        background-color: rgb(0, 0, 0);
+                        /* Fallback color */
+                        background-color: rgba(0, 0, 0, 0.4);
+                        /* Black w/ opacity */
+                }
 
+                /* Modal Content/Box */
+                .modal-content {
+                        background-color: #fefefe;
+                        margin: 15% auto;
+                        /* 15% from the top and centered */
+                        padding: 20px;
+                        border: 1px solid #888;
+                        width: 80%;
+                        /* Could be more or less, depending on screen size */
+                }
+
+                /* The Close Button */
+                .close {
+                        color: #aaa;
+                        float: right;
+                        font-size: 28px;
+                        font-weight: bold;
+                }
+
+                .close:hover,
+                .close:focus {
+                        color: black;
+                        text-decoration: none;
+                        cursor: pointer;
+                }
+        </style>
 </head>
 
 <body>
-        <!--The Big Banner image of Julius Caesar, Used "Hero" image formatting from W3Schools-->
-        <div class="hero-image">
-        </div>
-        <div class="hero-text">
-                <div class="rounded-social-buttons">
-                        <a class="social-button lichess" href="https://twitter.com/TuttlePower" alt="Twitter"><i
-                                        class="fab fa-twitter"></i></a>
-                        <a class="social-button github" href="https://www.linkedin.com/in/travistuttle/"
-                                alt="linkedin"><i class="fab fa-lichess"></i></a>
-                        <!--<a class="social-button youtube" href="#" alt="youtube"><i class="fab fa-youtube"></i></a>-->
-                        <a class="social-button instagram" href="https://www.instagram.com/tuttle_power/"
-                                alt="instagram"><i class="fab fa-instagram"></i></a>
-                        <!-- <a class="social-button github" href="https://github.com/tuttlepower" alt="github"><i
-                    class="fab fa-github"></i></a>
-            <a class="social-button facebook" href="https://www.facebook.com/Travie.Trav2015" alt="Facebook"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a class="social-button lichess" href="https://lichess.org/@/TuttlePower" alt="Lichess"><i
-                    class="fas fa-chess-rook"></i></a>
-            <a class="social-button medium" href="https://medium.com/@travistuttle" alt="Medium"><i
-                    class="fab fa-medium-m"></i></a> -->
-                </div>
-        </div>
         <div>
-                <h1 id="repos">
-
-                </h1>
-        </div>
-        <!-- Here a loader is created which 
-             loads till response comes -->
-        <div class="d-flex justify-content-center">
-                <div class="spinner-border" role="status" id="loading">
-                        <span class="sr-only">Loading...</span>
+                <div class="hero-image">
+                </div>
+                <div class="hero-text">
+                        <div class="rounded-social-buttons">
+                                <a class="social-button twitter" href="https://twitter.com/TuttlePower" alt="Twitter"><i
+                                                class="fab fa-twitter"></i></a>
+                                <a class="social-button linkedin" href="https://www.linkedin.com/in/travistuttle/"
+                                        alt="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                <!--<a class="social-button youtube" href="#" alt="youtube"><i class="fab fa-youtube"></i></a>-->
+                                <a class="social-button instagram" href="https://www.instagram.com/tuttle_power/"
+                                        alt="instagram"><i class="fab fa-instagram"></i></a>
+                                <a class="social-button github" href="https://github.com/tuttlepower" alt="github"><i
+                                                class="fab fa-github"></i></a>
+                                <a class="social-button facebook" href="https://www.facebook.com/Travie.Trav2015"
+                                        alt="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a class="social-button lichess" href="https://lichess.org/@/TuttlePower"
+                                        alt="Lichess"><i class="fas fa-chess-rook"></i></a>
+                                <a class="social-button medium" href="https://medium.com/@travistuttle" alt="Medium"><i
+                                                class="fab fa-medium-m"></i></a>
+                        </div>
+                        <!-- Trigger/Open The Modal -->
+                        <button id="myBtn">Projects</button>
                 </div>
         </div>
-        <h1>Github Projects</h1>
-        <!-- table for showing data -->
-        <table id="employees"></table>
-        </div>
-</body>
 
-</html>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h1>Github Projects</h1>
+                        <!-- Here a loader is created which 
+             loads till response comes -->
+                        <div class="d-flex justify-content-center">
+                                <div class="spinner-border" role="status" id="loading">
+                                        <span class="sr-only">Loading...</span>
+                                </div>
+                        </div>
+                        <!-- table for showing data -->
+                        <table id="employees"></table>
+                </div>
+
+        </div>
+
+
+
+
+
+</body>
 <script>
+        function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+        }
         // api url
         const api_url =
                 "https://api.github.com/users/tuttlepower/repos";
@@ -107,48 +167,31 @@
                 // Setting innerHTML as tab variable
                 document.getElementById("employees").innerHTML = tab;
         }
+        // Get the modal
+        var modal = document.getElementById("myModal");
 
-        // document.getElementById("repos").innerHTML = fetchRepos()
-        document.getElementById("repos").textContent = JSON.stringify(fetchRepos);
-        // function fetchRepos() {
-        //         const main = [];
-        //         return fetch('https://api.github.com/users/tuttlepower/repos').then(response => response.json())
-        //         .then((response) => {
-        //                 console.log(response)
-        //                 response.forEach((x, i) => console.log(x.name + " - " + x.description));
-        //         })
-        //         .catch(err => console.log(err))
-        // }
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
 
-        function fetchRepos() {
-                return fetch('https://api.github.com/users/tuttlepower/repos').then(response =>
-                        response.json()).then(
-                        json => renderRepos(json));
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on the button, open the modal
+        btn.onclick = function () {
+                modal.style.display = "block";
         }
 
-        function renderRepos(json) {
-                const main = document.querySelector('main')
-                json.forEach(repo => {
-                        const h2 = document.createElement('h2')
-                        h2.innerHTML = `<h2>${repo.name}</h2>`
-                        main.appendChild(h2)
-                })
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+                modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+                if (event.target == modal) {
+                        modal.style.display = "none";
+                }
         }
 </script>
-<script>
-        fetch('https://api.github.com/users/tuttlepower/repos').then(response => response.json())
-                .then((response) => {
-                        console.log(response)
-                        response.forEach((x, i) => console.log(x.name + " - " + x.description));
-                })
-                .catch(err => console.log(err))
-</script>
-<!-- <script>
-        fetch('https://api.github.com/users/tuttlepower/repos').then(response => response.text())
-                .then((response) => {
-                        console.log(response)
-                        // response.forEach((x, i) => console.log(x.name + " - "+ x.description));
-                })
-                .catch(err => console.log(err))
-</script> -->
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+</html>
