@@ -1,4 +1,24 @@
 [Event "Rated Blitz game"]
+[Site "https://lichess.org/cevw2fL2"]
+[Date "2021.05.17"]
+[White "thechessbrain"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.05.17"]
+[UTCTime "20:03:03"]
+[WhiteElo "1524"]
+[BlackElo "1527"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+5"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "C42"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nf6 3. d3 Nc6 4. Bg5 Bb4+ 5. Nbd2 Be7 6. h3 O-O 7. Qe2 d6 8. O-O-O Be6 9. Kb1 Nb4 10. a3 Na2 11. Nc4 Bxc4 12. dxc4 Nb4 13. axb4 a5 14. Qd2 axb4 15. Qxb4 Qd7 16. c3 d5 17. cxd5 Bxb4 18. Nxe5 Qa4 19. cxb4 Qa1+ 20. Kc2 Qa4+ 21. Kc1 Nxe4 22. Be7 Rfe8 23. Bc5 Rxe5 24. Bd3 Nxc5 25. bxc5 Rxd5 26. Bxh7+ Kxh7 27. Rxd5 Qc4+ 28. Kb1 Qxd5 29. Rg1 Qxc5 0-1
+
+
+[Event "Rated Blitz game"]
 [Site "https://lichess.org/TeemlQiw"]
 [Date "2021.05.17"]
 [White "sombman"]
