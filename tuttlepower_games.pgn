@@ -1772,6 +1772,46 @@
 1. d4 d5 2. Nf3 Nf6 3. g3 Nc6 4. Bg2 e5 5. Nxe5 Nxe5 6. dxe5 Ne4 7. Bxe4 dxe4 8. Qxd8+ Kxd8 9. O-O f6 10. exf6 gxf6 11. Nc3 f5 12. f3 exf3 13. exf3 Bc5+ 14. Kg2 Bd7 15. Bf4 Bd6 16. Bxd6 cxd6 17. Nd5 Re8 18. Rae1 Rxe1 19. Rxe1 Bc6 20. c4 Kd7 21. b4 Bxd5 22. cxd5 Kc7 23. Re6 a5 24. bxa5 Rxa5 25. Rh6 Rxa2+ 26. Kh3 Rd2 27. Rxh7+ Kb6 28. Rf7 Rxd5 29. g4 fxg4+ 30. fxg4 Kc5 31. Rxb7 Rd3+ 32. Kh4 d5 33. Kh5 Rh3+ 34. Kg5 Rxh2 35. Kf6 Rg2 36. g5 d4 37. g6 Kc6 38. Rb1 d3 39. Rd1 d2 40. Kf7 Kd7 41. g7 Rf2+ 42. Kg8 Ke7 43. Rh1 Ke8 44. Kh8 Rh2+ 45. Kg8 Rxh1 1/2-1/2
 
 
+[Event "Rated Correspondence game"]
+[Site "https://lichess.org/Q4BV5QS1"]
+[Date "2021.05.06"]
+[White "ClassicRick"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.05.06"]
+[UTCTime "18:53:46"]
+[WhiteElo "1837"]
+[BlackElo "1769"]
+[WhiteRatingDiff "+25"]
+[BlackRatingDiff "-76"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "D00"]
+[Termination "Normal"]
+
+1. d4 d5 2. Bf4 Nc6 3. e3 Nf6 4. Nf3 Bg4 5. Nbd2 Ne4 6. Be2 e6 7. c3 Bd6 8. Bg3 O-O 9. Qc2 Bf5 10. Bd3 Ne7 11. Nxe4 dxe4 12. Bxe4 Qe8 13. Bxf5 Nxf5 14. O-O-O Bxg3 15. hxg3 Rd8 16. g4 Nh6 17. Ng5 f5 18. gxf5 exf5 19. Qb3+ Kh8 20. Ne6 Rd6 21. Nxf8 Qxf8 22. Qxb7 Ng4 23. Rdf1 Rb6 24. Qxc7 h6 25. Qxa7 Qb8 26. Qxb8+ Rxb8 27. Rh3 Ra8 28. a3 Kh7 29. f4 Re8 30. Rff3 g6 31. c4 h5 32. Kc2 Kh6 33. Kc3 g5 34. fxg5+ Kxg5 35. c5 f4 36. exf4+ Kg6 37. Rh1 Re2 38. f5+ Kg5 39. Rd3 Rxg2 40. d5 Nf2 41. Rhd1 Nxd1+ 42. Rxd1 Rg3+ 43. Rd3 h4 44. d6 Rxd3+ 45. Kxd3 h3 46. d7 h2 47. d8=Q+ Kg4 48. Qd5 1-0
+
+
+[Event "Rated Correspondence game"]
+[Site "https://lichess.org/ayVYB3l0"]
+[Date "2021.05.06"]
+[White "Uli-123"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.05.06"]
+[UTCTime "18:53:30"]
+[WhiteElo "1948"]
+[BlackElo "1769"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-60"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "B01"]
+[Termination "Time forfeit"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Bg4 4. Be2 Nf6 5. Nc3 Qd8 6. h3 Bh5 7. O-O e6 8. a3 Bd6 9. d4 c6 10. Be3 Nbd7 11. Nd2 Bxe2 12. Nxe2 O-O 13. c4 c5 14. Re1 cxd4 15. Nxd4 Nc5 16. Qc2 Bc7 17. Reb1 Qd6 18. g3 Nh5 19. Nf1 e5 20. Nb5 Qc6 21. Bxc5 Qxc5 22. Nxc7 Qxc7 23. Rd1 Rac8 24. b3 b5 25. Ne3 a6 26. Rac1 Rfd8 27. Rxd8+ Rxd8 28. c5 Nf6 29. b4 a5 30. Rd1 Rxd1+ 31. Qxd1 1-0
+
+
 [Event "<2000 Rapid Arena"]
 [Site "https://lichess.org/iUNZn0rZ"]
 [Date "2021.05.06"]
