@@ -1,3 +1,63 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ThtP5tW6"]
+[Date "2021.05.24"]
+[White "TuttlePower"]
+[Black "variatie"]
+[Result "0-1"]
+[UTCDate "2021.05.24"]
+[UTCTime "00:45:42"]
+[WhiteElo "1511"]
+[BlackElo "1532"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "A45"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. Bf4 g6 3. e3 Bg7 4. Bd3 d6 5. Ne2 O-O 6. c4 Nbd7 7. O-O e5 8. dxe5 dxe5 9. Bg5 h6 10. Bxf6 Nxf6 11. Nbc3 e4 12. Bxe4 Nxe4 13. Qxd8 Rxd8 14. Nxe4 Bf5 15. Nc5 b6 16. Na6 Rd2 17. Nxc7 Rc8 18. Ng3 Rxc7 19. Nxf5 gxf5 20. Rad1 Rxb2 21. a4 Rxc4 22. Rd8+ Kh7 23. f4 Rxa4 24. Rc1 Rb3 25. Kf2 Raa3 26. Re8 a6 27. Rc6 b5 28. Kf3 a5 29. h4 b4 30. g4 Ra1 31. gxf5 Rf1+ 32. Ke4 Re1 33. Kf3 a4 34. Re7 a3 35. Rcc7 a2 36. Rxf7 a1=Q 37. Rxg7+ Kh8 38. Rh7+ Kg8 39. Rhg7+ Kf8 40. Rgf7+ Ke8 41. Rfe7+ Kd8 42. Red7+ Ke8 43. Re7+ Kf8 44. Rf7+ Kg8 45. Rg7+ Qxg7 46. Rxg7+ Kxg7 47. Ke4 Rexe3+ 48. Kd5 Rf3 49. Ke5 Rh3 50. f6+ Kf7 51. f5 Rxh4 52. Kd6 Kxf6 53. Kc5 Kxf5 54. Kb5 Ra3 55. Kc5 b3 56. Kb5 b2 57. Kc5 b1=R 58. Kd6 Re4 59. Kd5 h5 60. Kd6 h4 61. Kd5 h3 62. Kc5 h2 63. Kd5 h1=R 64. Kc5 Rhc1+ 65. Kd5 Rd3# 0-1
+
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/KBu5a6G7"]
+[Date "2021.05.24"]
+[White "Faz20"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.05.24"]
+[UTCTime "00:45:08"]
+[WhiteElo "1619"]
+[BlackElo "1515"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-4"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "A00"]
+[Termination "Normal"]
+
+1. e3 e5 2. c3 Bc5 3. Bc4 f5 4. Qb3 Nc6 5. Bxg8 Na5 6. Qf7# 1-0
+
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/GHkPWHbB"]
+[Date "2021.05.24"]
+[White "TuttlePower"]
+[Black "burb72"]
+[Result "0-1"]
+[UTCDate "2021.05.24"]
+[UTCTime "00:41:33"]
+[WhiteElo "1520"]
+[BlackElo "1563"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "D02"]
+[Termination "Normal"]
+
+1. d4 d5 2. Nf3 h6 3. Bf4 Bf5 4. e3 e6 5. Bb5+ c6 6. Bd3 Bb4+ 7. c3 Ba5 8. Na3 Nf6 9. O-O g5 10. Be5 g4 11. Nh4 Rg8 12. Nxf5 exf5 13. Bxf5 h5 14. Bh7 Rg7 15. Bd3 Nbd7 16. Bxf6 Nxf6 17. Nc2 Ne4 18. Bxe4 dxe4 19. b4 Bc7 20. Rb1 Qd6 21. g3 h4 22. f4 gxf3 23. Rf2 hxg3 24. hxg3 Qxg3+ 25. Kf1 Qg1# 0-1
+
+
 [Event "Rated Rapid game"]
 [Site "https://lichess.org/x3bJReBl"]
 [Date "2021.05.21"]
