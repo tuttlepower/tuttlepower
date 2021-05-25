@@ -1,3 +1,43 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/UJprjEBr"]
+[Date "2021.05.24"]
+[White "TuttlePower"]
+[Black "cusartik"]
+[Result "0-1"]
+[UTCDate "2021.05.24"]
+[UTCTime "21:25:54"]
+[WhiteElo "1319"]
+[BlackElo "1313"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "A40"]
+[Termination "Normal"]
+
+1. d4 e6 2. Bf4 d5 3. e3 Bd6 4. Bd3 Bxf4 5. exf4 Nf6 6. Qe2 Ne4 7. Bxe4 Nc6 8. Bf3 Nxd4 9. Nc3 Nxe2 10. Bxe2 Bd7 11. Bb5 Bxb5 12. Nxb5 c6 13. Nd4 Qb6 14. Ngf3 Qxb2 15. O-O O-O-O 16. Rab1 Qxa2 17. Ra1 Qxa1 18. Rxa1 b6 19. Rxa7 c5 20. Ra8+ Kd7 21. Rxd8+ Kxd8 22. Nb5 c4 23. Nfd4 Ke7 24. g4 Kf6 25. h4 Ke7 26. Kg2 Rg8 27. Kg3 Ra8 28. g5 Ra2 29. Kg4 f5+ 30. Kh5 g6+ 31. Kh6 Kd7 32. Kxh7 Ke7 33. Kxg6 Kf8 34. Kh5 Kf7 35. g6+ Kf6 36. Nc6 Kg7 37. Ne5 Kf6 38. Nd6 Ra1 39. Ndf7 Rf1 40. Ng5 Kg7 41. Nxe6+ Kf6 42. Nd4 Rxf2 43. Kh6 Rxf4 44. g7 Rxd4 45. Kh7 Rxh4+ 46. Kg8 Rg4 47. Kf8 Rxg7 48. Ng4+ Rxg4 49. Ke8 d4 50. Kd8 d3 51. Kc7 dxc2 52. Kxb6 c1=Q 53. Kc5 c3 54. Kb5 c2 55. Kc5 Qb1 56. Kc6 c1=Q+ 57. Kd6 Rd4# 0-1
+
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/buvqLKuV"]
+[Date "2021.05.24"]
+[White "Zeedyo"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.05.24"]
+[UTCTime "21:21:38"]
+[WhiteElo "1302"]
+[BlackElo "1313"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "A00"]
+[Termination "Time forfeit"]
+
+1. a4 e5 2. e3 Bc5 3. c3 Nc6 4. b4 Nf6 5. bxc5 d6 6. d4 dxc5 7. dxc5 Qxd1+ 8. Kxd1 e4 9. Bb5 Bd7 10. a5 Nxa5 11. Rxa5 b6 12. Bxd7+ Kxd7 13. Rb5 a6 14. Rb4 a5 15. Rb5 Kc6 16. c4 bxc5 17. Nc3 a4 18. Nd5 a3 19. Nxf6 a2 20. Bb2 a1=Q+ 21. Bxa1 Rxa1+ 22. Ke2 gxf6 23. f3 f5 24. Kf2 exf3 25. gxf3 Ra2+ 26. Kg3 Rg8+ 27. Kf4 Rf2 28. h4 Rgg2 29. Rh3 Rxg1 30. h5 Rc1 31. h6 Rxc4+ 32. e4 Rc3 33. Rb4 cxb4 34. exf5 b3 35. Rh4 b2 36. Kg5 b1=Q 37. f6 Qg6+ 38. Kf4 Rc4+ 39. Ke3 Rfc2 40. Rxc4+ Kb5 41. Rxc2 Qxc2 42. Kf4 Qc6 43. Kg3 Qxf6 44. f4 Qxh6 45. Kf3 Qf6 46. Kg4 h5+ 47. Kf3 Qh4 48. Ke4 Qh3 0-1
+
+
 [Event "Rated Blitz game"]
 [Site "https://lichess.org/ThtP5tW6"]
 [Date "2021.05.24"]
