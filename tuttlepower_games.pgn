@@ -1,3 +1,83 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/FFBUUzNr"]
+[Date "2021.06.01"]
+[White "occidorient"]
+[Black "TuttlePower"]
+[Result "1/2-1/2"]
+[UTCDate "2021.06.01"]
+[UTCTime "13:34:30"]
+[WhiteElo "1290"]
+[BlackElo "1306"]
+[WhiteRatingDiff "+0"]
+[BlackRatingDiff "+0"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "C42"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bg4 6. Be2 Bxe2 7. Qxe2 Bb4+ 8. c3 Ba5 9. Nd2 O-O 10. Nb3 b6 11. Nxa5 bxa5 12. O-O c5 13. Be3 c4 14. d4 Nxe4 15. Qxc4 Re8 16. Qa4 a6 17. Qxa5 Rb8 18. Rab1 Nxc3 19. Qxc3 Rxe3 20. Qxe3 Qf8 21. Rfe1 c5 22. dxc5 Rc8 23. b4 a5 24. a3 axb4 25. axb4 Rc6 26. Qe8 Re6 27. Qxf8+ Kxf8 28. Rxe6 fxe6 29. b5 e5 30. b6 e4 31. b7 e3 32. fxe3 g5 33. b8=Q+ Kf7 34. Qb6 g4 35. c6 Ke7 36. c7 g3 37. h3 Kd7 38. Qb8 h5 39. c8=Q+ Ke7 40. Rc1 Kf6 41. Rd1 Kg5 42. Qb6 Kh4 43. Qcc5 1/2-1/2
+
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/o1toTMaq"]
+[Date "2021.06.01"]
+[White "ozandursun"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.06.01"]
+[UTCTime "13:25:06"]
+[WhiteElo "1330"]
+[BlackElo "1312"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "C40"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 f5 3. exf5 d6 4. Bc4 Bxf5 5. O-O Nc6 6. Nc3 Nd4 7. Nxd4 exd4 8. Ne2 Be7 9. Nxd4 Bg6 10. d3 Nf6 11. Re1 Qd7 12. Bg5 O-O-O 13. Bxf6 Bxf6 14. c3 Bxd4 15. cxd4 Rhe8 16. Qf3 Rxe1+ 17. Rxe1 b6 18. b4 c6 19. a4 Bf7 20. Bxf7 Qxf7 21. Qxf7 Rd7 22. Qf3 Kc7 23. Rc1 d5 24. Qf4+ Kb7 25. Re1 a5 26. Qh4 axb4 27. Re7 Rxe7 28. Qxe7+ Ka6 29. Qxb4 b5 30. axb5+ cxb5 31. Qc5 Ka5 32. Qxd5 Ka4 33. Qa2+ Kb4 34. d5 Kc3 35. d6 Kxd3 36. d7 b4 37. d8=Q+ Ke4 38. Qe2+ Kf5 39. Qf8+ Kg6 40. Qg4+ Kh6 41. Qd6+ g6 42. Qdxb4 Kg7 43. Qh4 h6 44. Qbe7+ Kg8 45. Qxh6 g5 46. Qhg7# 1-0
+
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/xMZsmorp"]
+[Date "2021.06.01"]
+[White "TuttlePower"]
+[Black "CitDown"]
+[Result "1-0"]
+[UTCDate "2021.06.01"]
+[UTCTime "13:16:14"]
+[WhiteElo "1306"]
+[BlackElo "1302"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "D00"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. Bf4 c6 3. Nc3 Qb6 4. Nf3 Qxb2 5. Bd2 e6 6. e3 Bb4 7. Rb1 Qa3 8. Bd3 Bxc3 9. Rb3 Bxd2+ 10. Nxd2 Qxa2 11. O-O Nd7 12. Nf3 a5 13. Ng5 Ngf6 14. Bxh7 Nxh7 15. Qf3 Nxg5 16. Qg4 f6 17. h4 Nf7 18. h5 Qxc2 19. Qxg7 Rxh5 20. Qg8+ Ke7 21. Rxb7 Bxb7 22. Qxa8 Bxa8 23. g3 Qh7 24. Kg2 Rh2+ 25. Kf3 Qh5+ 26. Kf4 1-0
+
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/x6cic3v1"]
+[Date "2021.06.01"]
+[White "panmarek12"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.06.01"]
+[UTCTime "13:14:24"]
+[WhiteElo "1299"]
+[BlackElo "1312"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "C50"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nf6 3. Bc4 Bc5 4. d3 Nc6 5. O-O d6 6. h3 Be6 7. Bxe6 fxe6 8. Nc3 O-O 9. Re1 Bxf2+ 10. Kxf2 Nh5 11. Kg1 Nf4 12. Bxf4 exf4 13. Qd2 e5 14. Nd5 Ne7 15. Rf1 Nxd5 16. exd5 c6 17. Rae1 cxd5 18. d4 Qb6 19. c3 exd4 20. Nxd4 Rae8 21. Rxe8 Rxe8 22. Qxf4 Qxb2 23. Qf7+ Kh8 24. Qxe8# 1-0
+
+
 [Event "Rated Blitz game"]
 [Site "https://lichess.org/NzRIrrQp"]
 [Date "2021.05.30"]
@@ -684,6 +764,26 @@
 [Termination "Normal"]
 
 1. e4 e5 2. Nf3 Nf6 3. d3 Nc6 4. Bg5 Bb4+ 5. Nbd2 Be7 6. h3 O-O 7. Qe2 d6 8. O-O-O Be6 9. Kb1 Nb4 10. a3 Na2 11. Nc4 Bxc4 12. dxc4 Nb4 13. axb4 a5 14. Qd2 axb4 15. Qxb4 Qd7 16. c3 d5 17. cxd5 Bxb4 18. Nxe5 Qa4 19. cxb4 Qa1+ 20. Kc2 Qa4+ 21. Kc1 Nxe4 22. Be7 Rfe8 23. Bc5 Rxe5 24. Bd3 Nxc5 25. bxc5 Rxd5 26. Bxh7+ Kxh7 27. Rxd5 Qc4+ 28. Kb1 Qxd5 29. Rg1 Qxc5 0-1
+
+
+[Event "Rated Correspondence game"]
+[Site "https://lichess.org/YplcdnYR"]
+[Date "2021.05.17"]
+[White "TuttlePower"]
+[Black "josuperfly"]
+[Result "1-0"]
+[UTCDate "2021.05.17"]
+[UTCTime "15:13:28"]
+[WhiteElo "1867"]
+[BlackElo "1752"]
+[WhiteRatingDiff "+55"]
+[BlackRatingDiff "-14"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "D00"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. Bf4 Bf5 3. Nc3 e6 4. Nf3 f6 5. e3 a6 6. Bd3 Bg4 7. h3 Bxf3 8. Qxf3 Bb4 9. O-O Nc6 10. Qg4 Qe7 11. a3 1-0
 
 
 [Event "Rated Blitz game"]
