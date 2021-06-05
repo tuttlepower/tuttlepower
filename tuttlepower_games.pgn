@@ -1,4 +1,64 @@
 [Event "Rated Bullet game"]
+[Site "https://lichess.org/INY4o9Ub"]
+[Date "2021.06.05"]
+[White "TuttlePower"]
+[Black "ZaerulOfficial"]
+[Result "0-1"]
+[UTCDate "2021.06.05"]
+[UTCTime "13:36:02"]
+[WhiteElo "1310"]
+[BlackElo "1264"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "A40"]
+[Termination "Normal"]
+
+1. d4 e5 2. Bf4 exf4 3. e3 fxe3 4. fxe3 Nc6 5. Bd3 d5 6. Nf3 Bg4 7. O-O Nf6 8. h3 Bxf3 9. Rxf3 Be7 10. e4 dxe4 11. Bxe4 Nxe4 12. Nc3 Nxc3 13. bxc3 Nxd4 14. cxd4 O-O 15. c4 Bf6 16. d5 Bxa1 17. Qxa1 c6 18. Rg3 f6 19. Kh2 cxd5 20. cxd5 Qxd5 21. a4 Qd6 22. a5 Qe5 23. Qa2+ Kh8 24. h4 Qh5 25. Qb3 Qxh4+ 26. Kg1 b6 27. axb6 axb6 28. Qxb6 Qxg3 29. Qd4 Rad8 30. Qxd8 Rxd8 31. Kh1 Rd1# 0-1
+
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/OTTZNacu"]
+[Date "2021.06.05"]
+[White "ASTANA-ISA"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.06.05"]
+[UTCTime "13:33:41"]
+[WhiteElo "1325"]
+[BlackElo "1304"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "C25"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Nc3 Bc5 3. Nf3 Nf6 4. d4 exd4 5. Nxd4 Bxd4 6. Qxd4 Qe7 7. Nd5 Qxe4+ 8. Qxe4+ Nxe4 9. Bd3 Nc5 10. Bc4 O-O 11. O-O c6 12. Nc7 d5 13. Nxa8 dxc4 14. Nc7 Bf5 15. c3 Nd3 16. Be3 Nd7 17. Rad1 Nxb2 18. Rd2 Na4 19. Nd5 cxd5 20. Rxd5 Nxc3 21. Rxf5 Nf6 22. Rc5 b6 23. Rxc4 Nce4 24. Rxe4 Nxe4 25. f3 Nc3 26. Rc1 Nxa2 27. Rc7 a5 28. Bxb6 a4 29. Ra7 Nc3 30. Bd4 Nd5 31. Ra5 Re8 32. Rxd5 f6 33. Ra5 Rd8 34. Rxa4 Kf7 35. Kf2 Kg6 36. g4 h5 37. gxh5+ Kxh5 38. Ra5+ Kh4 39. Be3 Kh3 40. Bf4 Re8 41. Ra3 g5 0-1
+
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/JHiifsm5"]
+[Date "2021.06.05"]
+[White "TuttlePower"]
+[Black "prochessgreg"]
+[Result "1-0"]
+[UTCDate "2021.06.05"]
+[UTCTime "13:30:59"]
+[WhiteElo "1297"]
+[BlackElo "1366"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "D01"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. Bf4 Nf6 3. Nc3 Nc6 4. e3 e6 5. Bb5 Bd7 6. Nf3 a6 7. Ba4 b5 8. Bb3 b4 9. Na4 a5 10. a3 bxa3 11. bxa3 Bd6 12. Nc5 Bxf4 13. exf4 O-O 14. O-O Be8 15. Nb7 Qb8 16. Nxa5 Rxa5 17. Rb1 Rb5 18. Qd3 Na7 19. Ne5 c6 20. Nxc6 Nxc6 21. Bxd5 exd5 22. Rxb5 Qc7 23. Rc5 Nd7 24. c4 Qd6 25. cxd5 Qxd5 26. Rxd5 Ne7 27. Rxd7 Bxd7 28. Re1 Be6 29. Rxe6 g6 30. Rxe7 h6 31. h4 h5 32. g4 Kg7 33. g5 Rg8 34. Qe4 Rf8 35. Qe6 Kg8 36. Qf6 Kh7 37. Re8 Rxe8 38. Qxf7+ Kh8 39. Qxe8+ Kg7 40. Qf7+ Kxf7 41. f3 Kf8 42. Kg2 Ke7 43. Kg3 Kd8 44. f5 1-0
+
+
+[Event "Rated Bullet game"]
 [Site "https://lichess.org/PgzyLUSA"]
 [Date "2021.06.04"]
 [White "iyahlang"]
