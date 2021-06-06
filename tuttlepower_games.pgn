@@ -178,6 +178,26 @@
 1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Nxd5 6. Qf3 Qxg5 7. Bxd5 f5 8. Bxc6+ bxc6 9. Qxc6+ Kd8 10. Qxa8 Bc5 11. O-O e4 12. d3 f4 13. dxe4 f3 14. Rd1+ Ke7 15. Bxg5+ Ke6 16. Qc6+ Ke5 17. Qxc5+ Kxe4 18. Re1# 1-0
 
 
+[Event "Rated Correspondence game"]
+[Site "https://lichess.org/eIXLEapa"]
+[Date "2021.06.03"]
+[White "TuttlePower"]
+[Black "AlexDodd"]
+[Result "0-1"]
+[UTCDate "2021.06.03"]
+[UTCTime "23:55:58"]
+[WhiteElo "1840"]
+[BlackElo "1923"]
+[WhiteRatingDiff "-25"]
+[BlackRatingDiff "+41"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "A45"]
+[Termination "Time forfeit"]
+
+1. d4 Nf6 2. Bf4 d5 3. e3 c5 4. Bd3 Nc6 5. dxc5 e6 0-1
+
+
 [Event "Rated Bullet game"]
 [Site "https://lichess.org/FFBUUzNr"]
 [Date "2021.06.01"]
