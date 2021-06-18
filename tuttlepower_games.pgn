@@ -1,3 +1,23 @@
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/c9oed03K"]
+[Date "2021.06.18"]
+[White "TuttlePower"]
+[Black "ANIL04"]
+[Result "1-0"]
+[UTCDate "2021.06.18"]
+[UTCTime "12:55:25"]
+[WhiteElo "1416"]
+[BlackElo "1435"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-6"]
+[Variant "Standard"]
+[TimeControl "600+0"]
+[ECO "D00"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. Bf4 h6 3. c3 g5 4. Be5 f6 5. Bg3 h5 6. h3 h4 7. Bh2 a5 8. e3 c6 9. Nd2 b5 10. Bd3 Rh6 11. Ngf3 b4 12. Nb3 e6 13. Nc5 Bxc5 14. dxc5 bxc3 15. bxc3 Nd7 16. O-O Nxc5 17. Bc2 Ne7 18. Nd4 Bd7 19. Bd6 Nc8 20. Bxc5 e5 21. Nf3 e4 22. Nd4 Rg6 23. Ba4 Na7 24. Qh5 Kf7 25. Qh7+ Rg7 26. Qh5+ Kg8 27. Bxa7 Rxa7 28. Bxc6 g4 29. Bxd5+ Be6 30. Bxe6+ Raf7 31. Bxf7+ Rxf7 32. Qxg4+ Rg7 33. Qxe4 f5 34. Qd5+ Qxd5 35. Nf3 1-0
+
+
 [Event "Rated Blitz game"]
 [Site "https://lichess.org/d62pNCQh"]
 [Date "2021.06.15"]
