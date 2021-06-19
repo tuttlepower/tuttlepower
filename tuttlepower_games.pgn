@@ -1,3 +1,23 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/iPpqhD43"]
+[Date "2021.06.18"]
+[White "rapidflashlight"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.06.18"]
+[UTCTime "17:55:47"]
+[WhiteElo "1440"]
+[BlackElo "1304"]
+[WhiteRatingDiff "+49"]
+[BlackRatingDiff "-4"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "C43"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. Nxd4 Bb4+ 5. c3 Bxc3+ 6. Nxc3 Nxe4 7. Nxe4 Qe7 8. Qe2 O-O 9. f3 Qb4+ 10. Bd2 Qxd4 11. O-O-O d5 12. Nc3 Qc4 13. Qxc4 dxc4 14. Bxc4 Be6 15. Bxe6 fxe6 16. Rde1 Nd7 17. Rxe6 Nc5 18. Re7 Rad8 19. Rxc7 b6 20. Rxa7 Nd3+ 21. Kc2 Nb4+ 22. Kb3 Rxd2 23. Kxb4 Rxb2+ 24. Ka3 Rc2 25. Nb5 Rxg2 26. Rc1 Rxf3+ 27. Rc3 Rxc3+ 28. Nxc3 g5 29. Ra8+ Kg7 30. Rb8 Rxh2 31. Rxb6 Rh3 32. Kb4 Rh4+ 33. Kb3 g4 34. Rb4 h5 35. a4 Rh3 36. Rf4 Kg6 37. Rf1 Re3 38. a5 Re5 39. a6 Re8 40. Kb4 Rb8+ 41. Ka5 Ra8 42. Nb5 Ra7 43. Nxa7 g3 44. Nc6 g2 45. Rg1 h4 46. Rxg2+ Kh5 47. Rh2 h3 48. Rxh3+ Kg4 49. a7 Kxh3 50. a8=Q 1-0
+
+
 [Event "Rated Rapid game"]
 [Site "https://lichess.org/c9oed03K"]
 [Date "2021.06.18"]
