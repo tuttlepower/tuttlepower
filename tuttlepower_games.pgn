@@ -438,6 +438,24 @@
 1. d4 e6 2. Nf3 f6 3. Nc3 c6 4. Bf4 a5 5. e3 Bb4 6. a3 Bxc3+ 7. bxc3 g5 8. Bg3 h5 9. h3 h4 10. Bh2 Nh6 11. Bd3 b5 12. Bd6 Nf5 13. Bc5 Na6 14. e4 d6 15. exf5 dxc5 16. fxe6 Bxe6 17. dxc5 Nxc5 18. Bg6+ Kf8 19. Qxd8+ Rxd8 20. O-O Rh6 21. Bd3 Nxd3 22. cxd3 Rxd3 23. Rae1 Kf7 24. c4 Bxc4 25. Rc1 Rxa3 26. Rfd1 Be2 27. Rd7+ Kg6 28. Nd4 Bc4 29. Nxc6 Rh7 30. Ne7+ Kh5 31. g4+ Kh6 32. Nf5+ Kg6 33. Ne7+ Kh6 34. Ng8+ Kg6 35. Rd6 Bxg8 36. Rcc6 Rf7 37. Kg2 b4 38. Rc8 Kg7 39. f4 gxf4 40. Rd5 b3 41. Rg5+ fxg5 42. Rc5 b2 43. Rxg5+ Kf8 44. Rh5 b1=Q 45. Rxh4 Qb3 46. g5 Ra2+ 47. Kf1 Qb1# 0-1
 
 
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/jf0ohwz3"]
+[Date "2021.06.15"]
+[White "Pudge1014"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.06.15"]
+[UTCTime "00:37:49"]
+[WhiteElo "1500"]
+[BlackElo "1767"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "A07"]
+[Termination "Normal"]
+
+1. Nf3 d5 2. g3 Bf5 3. Bg2 e6 4. O-O Bc5 5. Nh4 Nh6 6. d4 Bb6 7. c4 Be4 8. Bxe4 dxe4 9. Bd2 Bxd4 10. Bxh6 Bxb2 11. Nd2 Bxa1 12. Qxa1 Nd7 13. Nxe4 f5 14. Qxg7 Rf8 15. Bg5 Rf7 16. Qg8+ Rf8 17. Qxe6+ 1-0
+
+
 [Event "Rated Bullet game"]
 [Site "https://lichess.org/rybSgbWQ"]
 [Date "2021.06.14"]
