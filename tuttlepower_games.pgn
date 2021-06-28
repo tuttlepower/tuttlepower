@@ -1,4 +1,24 @@
 [Event "Rated Blitz game"]
+[Site "https://lichess.org/WcIIHQTU"]
+[Date "2021.06.28"]
+[White "pggaurav"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.06.28"]
+[UTCTime "13:08:05"]
+[WhiteElo "1500"]
+[BlackElo "1489"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+7"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "A00"]
+[Termination "Normal"]
+
+1. g3 d5 2. Bg2 Bf5 3. d3 e5 4. f3 Nf6 5. e4 dxe4 6. fxe4 Bg4 7. Ne2 Bb4+ 8. Bd2 Bxd2+ 9. Nxd2 Nc6 10. O-O Nd4 11. Bf3 Nxf3+ 12. Nxf3 Bxf3 13. Rxf3 O-O 14. d4 Nxe4 15. Re3 Ng5 16. Rxe5 Nf3+ 17. Kg2 Nxe5 18. dxe5 Qxd1 19. Rxd1 h6 20. Nf4 g5 21. Nh5 Rac8 22. Nf6+ Kg7 23. c4 c5 24. Nh5+ Kg6 25. g4 Rce8 26. Rd6+ Kh7 27. Nf6+ Kg7 28. Nxe8+ Rxe8 29. Rf6 Rxe5 30. Rf5 Re2+ 31. Kf3 Rxb2 32. Rxc5 Rxa2 33. Rc7 b6 34. Rb7 Rxh2 35. Ke4 Rh4 36. Kf3 Rh3+ 37. Ke4 Ra3 38. Kd5 Kf6 39. Ke4 Ra4 40. Kd4 Ke6 41. Rc7 f5 42. Rc6+ Kd7 43. Rxh6 fxg4 44. Rg6 Ra5 45. Rg7+ Kc6 46. Rh7 Kd6 47. Rh6+ Ke7 48. Rg6 Kf7 49. Rc6 Kg7 50. c5 Rxc5 51. Rxc5 bxc5+ 52. Kxc5 g3 53. Kd4 g2 54. Ke3 g1=Q+ 55. Kf3 Qf1+ 56. Kg4 a5 57. Kxg5 a4 58. Kg4 a3 0-1
+
+
+[Event "Rated Blitz game"]
 [Site "https://lichess.org/qKhaq3jy"]
 [Date "2021.06.20"]
 [White "TuttlePower"]
