@@ -7586,7 +7586,7 @@
 [BlackRatingDiff "-7"]
 [Variant "Standard"]
 [TimeControl "180+0"]
-[ECO "A40"]
+[ECO "D00"]
 [Termination "Normal"]
 
 1. d4 d5 2. Nc3 g6 3. Nf3 Bg7 4. Bg5 Nf6 5. e3 e6 6. Bb5+ Bd7 7. Bd3 O-O 8. O-O Re8 9. Ne5 Nc6 10. Qf3 Rf8 11. h4 Rc8 12. h5 Nxh5 13. Bxd8 Rcxd8 14. g4 Nxe5 15. dxe5 Bxe5 16. gxh5 f5 17. hxg6 hxg6 18. Qh3 Rf7 19. Qh6 Rh7 20. Qxg6+ Rg7 21. Qxg7+ Kxg7 22. f4 Bf6 23. Kf2 Rh8 24. Rg1+ Kf7 25. e4 dxe4 26. Bb5 Bxb5 27. Nxb5 Bd4+ 28. Nxd4 Rh2+ 29. Kg3 1-0
@@ -54266,7 +54266,7 @@
 [BlackRatingDiff "-5"]
 [Variant "Standard"]
 [TimeControl "180+0"]
-[ECO "A40"]
+[ECO "D00"]
 [Termination "Normal"]
 
 1. Nf3 g6 2. Nc3 Bg7 3. d4 d5 4. Bg5 Nf6 5. e3 c5 6. dxc5 Bf5 7. Ne5 Nc6 8. Nxc6 bxc6 9. Bd3 Bxd3 10. Qxd3 O-O 11. O-O-O Qa5 12. f4 Rab8 13. Kd2 Rb5 14. Bxf6 Bxf6 15. Ke2 Rxc5 16. b4 Rxc3 17. Qd2 Qxb4 18. Rb1 Qc5 19. g4 Ra3 20. g5 Bg7 21. Rb7 Bc3 22. Qd4 Qxd4 23. exd4 Rxa2 24. Kd3 Ba5 25. Rxa7 Ra3+ 26. Ke2 f6 27. gxf6 exf6 28. h4 Re8+ 29. Kf2 h5 30. Rg1 Kh8 31. Rxg6 Rg8 32. Rh6# 1-0
