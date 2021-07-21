@@ -1,4 +1,24 @@
 [Event "Rated Blitz game"]
+[Site "https://lichess.org/EpvAvucc"]
+[Date "2021.07.20"]
+[White "Sergheigos"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.07.20"]
+[UTCTime "18:50:21"]
+[WhiteElo "1522"]
+[BlackElo "1514"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "C02"]
+[Termination "Normal"]
+
+1. e4 d5 2. e5 e6 3. d4 Bb4+ 4. Bd2 Bxd2+ 5. Nxd2 Nc6 6. Bb5 a6 7. Ba4 b5 8. Bb3 Nxd4 9. Ngf3 Nxb3 10. Nxb3 Ne7 11. O-O Ng6 12. c3 O-O 13. Nc5 Qe7 14. Nd3 Bb7 15. Nd4 Qg5 16. Re1 c5 17. Nf3 Qh5 18. c4 dxc4 19. Nxc5 Rad8 20. Qe2 Bxf3 21. Qxf3 Qxf3 22. gxf3 Rd5 23. b4 Nxe5 24. a4 Nxf3+ 25. Kf1 Nxe1 26. Kxe1 bxa4 27. Rxa4 Re5+ 28. Kf1 h5 29. Rxa6 Rb8 30. Nd7 Rxb4 31. Nxe5 Rb1+ 32. Kg2 f6 33. Nxc4 e5 34. Nd6 g5 35. Nf5 Kf7 36. Ra7+ Kg6 37. Ne3 f5 38. Ra6+ Kf7 39. Nxf5 h4 40. Ne3 e4 41. Ng4 Rb2 42. Ra3 Ke6 43. Re3 Kd5 44. Nf6+ Kd4 45. Rxe4+ Kd3 46. Rg4 Ke2 47. Ne4 Kd3 48. Nxg5 Rb8 49. Rf4 Rg8 50. Rf5 h3+ 51. Kxh3 Rh8+ 52. Kg4 Ke2 53. f4 Rxh2 54. Re5+ Kd3 55. Re8 Rg2+ 56. Kf5 Rf2 57. Nh3 Rf3 58. Kg4 Rf1 59. f5 Kd4 60. f6 Kd5 61. Kg5 Kd6 62. Re2 Ra1 63. Kg6 Ra8 64. f7 Rf8 65. Kg7 Rd8 66. f8=Q+ Kc7 67. Qf7+ Rd7 68. Rc2+ Kd6 69. Rd2+ Kc7 70. Qxd7+ Kb6 71. Qd5 Kc7 72. Re2 Kb6 73. Re6+ Kc7 74. Qf5 Kd7 75. Qf7+ Kd8 76. Re8# 1-0
+
+
+[Event "Rated Blitz game"]
 [Site "https://lichess.org/uzko3ecF"]
 [Date "2021.07.19"]
 [White "TuttlePower"]
@@ -90732,7 +90752,7 @@
 [Site "https://lichess.org/7cIgDCbK"]
 [Date "2019.04.20"]
 [White "TuttlePower"]
-[Black "Mroulik"]
+[Black "MrOulik"]
 [Result "0-1"]
 [UTCDate "2019.04.20"]
 [UTCTime "23:05:43"]
