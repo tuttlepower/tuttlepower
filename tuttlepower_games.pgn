@@ -18,6 +18,24 @@
 1. d4 d5 2. Bf4 Nc6 3. Nc3 e5 4. dxe5 d4 5. Nb5 Bb4+ 6. c3 dxc3 7. bxc3 Ba5 8. e6 Qxd1+ 9. Rxd1 fxe6 10. Nxc7+ Bxc7 11. Bxc7 Nf6 12. e3 Ne4 13. Bb5 Nxc3 14. Rd8+ Ke7 15. Rxh8 Nxb5 16. Bf4 e5 17. Bg5+ Kf7 18. Nf3 e4 19. Nd4 Nc3 20. O-O Nxa2 21. Nf5 g6 22. Nd6+ Kg7 23. Re8 Nab4 24. Nxc8 Nd5 25. f3 exf3 26. Rxf3 h6 27. Bf4 Nf6 28. Be5 Kf7 29. Rh8 Nxe5 30. Rf4 Kg7 31. Rd8 Nd3 32. Rc4 Ne5 33. Rc7+ Nf7 34. g4 g5 35. h3 Kg6 36. Kg2 Ne4 37. Rdd7 Ne5 38. Rg7+ Kf6 39. Kf1 Nd2+ 40. Ke2 Ndc4 41. e4 Na5 42. h4 Nxg4 43. Rcf7+ Ke5 44. Ne7 Rc8 45. Rh7 Rc2+ 46. Kd3 Rh2 47. Nd5 Rf2 48. Ne3 Nxe3 49. Re7+ Kf6 50. Rxb7 Rh2 51. Rhf7+ Ke6 52. Kxe3 Rxh4 53. Kd4 g4 54. e5 g3+ 55. Kc5 Nb3+ 56. Kc6 g2 57. Rxa7 g1=Q 58. Ra6 Qc1+ 59. Kb5+ Kxf7 60. Rb6 Rh5 61. Rc6 Qe3 0-1
 
 
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/rDdGHqPh"]
+[Date "2021.07.21"]
+[White "Chuma777"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.07.21"]
+[UTCTime "16:34:25"]
+[WhiteElo "1500"]
+[BlackElo "1835"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "D00"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. e3 Nf6 3. c4 Bg4 4. Nf3 Nc6 5. Be2 e6 6. Ne5 Bb4+ 7. Nc3 Bf5 8. e4 Nxe4 9. f3 Qh4+ 0-1
+
+
 [Event "Rated Correspondence game"]
 [Site "https://lichess.org/6FQn2fk2"]
 [Date "2021.07.21"]
