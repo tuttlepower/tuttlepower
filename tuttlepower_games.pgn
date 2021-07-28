@@ -1,4 +1,64 @@
 [Event "Rated Blitz game"]
+[Site "https://lichess.org/GBjVDWAV"]
+[Date "2021.07.28"]
+[White "TuttlePower"]
+[Black "brianmamac3"]
+[Result "1-0"]
+[UTCDate "2021.07.28"]
+[UTCTime "03:11:22"]
+[WhiteElo "1517"]
+[BlackElo "1450"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "A43"]
+[Termination "Normal"]
+
+1. d4 c5 2. dxc5 e6 3. Be3 Qa5+ 4. Nc3 Bxc5 5. Bxc5 Qxc5 6. Ne4 Qb4+ 7. c3 Qxe4 8. Nf3 Nf6 9. e3 Nc6 10. Bd3 Qd5 11. e4 Nxe4 12. Bxe4 Qxd1+ 13. Rxd1 O-O 14. Ng5 d5 15. Bxh7+ Kh8 16. O-O g6 17. Rd3 Ne5 18. Rh3 Nd3 19. Bxg6+ Kg7 20. Bxd3 e5 21. Re1 Bxh3 22. gxh3 e4 23. Be2 f6 24. Ne6+ Kf7 25. Nxf8 Rxf8 26. Bh5+ Ke7 27. f3 Rh8 28. Bg4 Kd6 29. fxe4 dxe4 30. Rxe4 Kd5 31. Rd4+ Kc5 32. b4+ Kb6 33. a4 Re8 34. Bd7 Re3 35. Rc4 Re1+ 36. Kf2 Rh1 37. Kg3 Ra1 38. a5+ Ka6 39. Kg4 b6 40. Rc6 Ra3 41. Rc7 bxa5 42. b5+ Kb6 43. Rc6+ Kxb5 44. Rxf6+ Kc5 45. Rc6+ Kd5 46. Ra6 Rxc3 47. Kg5 Rc5 48. h4 Kc4+ 49. Bf5 Kb4 50. h5 Rc7 51. h6 a4 52. h7 Rc8 53. Bxc8 a3 54. h8=Q a2 55. Qa1 Kb3 56. Qxa2+ Kc3 57. Rxa7 Kd3 58. h4 Ke3 59. h5 Kf3 60. h6 Kg3 61. h7 Kf3 62. Qg8 Ke3 63. Rf7 Kd4 64. Bh3 Kc5 65. Qe8 Kb4 66. Rd7 Kc3 67. Qc8+ Kb2 68. Rb7+ Ka3 69. Qa8# 1-0
+
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/6QKVgbro"]
+[Date "2021.07.28"]
+[White "kfatoph"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.07.28"]
+[UTCTime "03:05:32"]
+[WhiteElo "1555"]
+[BlackElo "1510"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "A40"]
+[Termination "Time forfeit"]
+
+1. d4 Nc6 2. c4 e6 3. Nc3 d5 4. a3 dxc4 5. e3 Bd6 6. Bxc4 Nf6 7. Nf3 O-O 8. O-O Ng4 9. g3 b6 10. Ba2 Bb7 11. Nh4 Bxg3 12. fxg3 Ne7 13. Qxg4 Ng6 14. Bb1 Nxh4 15. gxh4 f5 16. Qh5 g6 17. Qg5 Qxg5+ 18. hxg5 c5 19. dxc5 bxc5 20. Ba2 Bd5 21. Bxd5 exd5 22. Nxd5 Rad8 23. Nf6+ Kg7 24. b4 c4 25. Bb2 Rd2 26. Bc3 Rd3 27. Nd7+ Kf7 28. Ne5+ Ke6 29. Nxd3 cxd3 30. Rfd1 Kd5 31. Bd4 Ke4 32. Rab1 Rc8 33. Rb3 Rc2 34. Rbxd3 Kf3 35. e4+ Kxe4 36. Bc5 Kf4 37. Be3+ Kg4 38. h3+ Kxh3 39. Bxa7+ Kg4 40. Rd4+ Kxg5 41. Bc5 h5 42. Be7+ Kh6 43. Rd6 h4 44. Re1 Kh5 45. Ree6 Kg4 46. Rxg6+ Kf4 47. Bxh4 Kf3 0-1
+
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/eKlNYhI3"]
+[Date "2021.07.28"]
+[White "salfatote"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.07.28"]
+[UTCTime "03:00:08"]
+[WhiteElo "1497"]
+[BlackElo "1504"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+6"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "C20"]
+[Termination "Normal"]
+
+1. e4 e5 2. Qh5 Nf6 3. Qxe5+ Be7 4. Qg3 Nxe4 5. Qxg7 Rf8 6. d3 Bb4+ 7. c3 Nxc3 8. bxc3 Qe7+ 9. Ne2 Ba5 10. Bh6 Nc6 11. Na3 Bxc3+ 12. Kd1 Bxg7 13. Bxg7 Rg8 14. Bc3 d6 15. Ng3 d5 16. Be2 Qxa3 17. Re1 Qxc3 18. Rc1 Qd4 19. Nf5 Qxf2 20. Nh6 Rxg2 21. Bf3+ Kd7 22. Bxg2 Qxg2 23. Nxf7 Qg4+ 24. Kc2 b5 25. Kb1 Qb4+ 26. Ka1 Bb7 27. Rb1 Qd4+ 28. Rb2 Qxd3 29. Ne5+ Nxe5 30. Rxe5 Qf1+ 31. Rb1 Qf6 32. Re1 c5 33. Kb1 Qg6+ 34. Kc1 d4 35. Re7+ Kc6 36. R1e6+ Kd5 37. Re5+ Kc4 38. Rxb7 Rf8 39. Rc7 Qg2 40. Rcxc5+ Kb4 41. Rxb5+ Kc3 42. Rb3+ Kc4 43. Reb5 Rf1# 0-1
+
+
+[Event "Rated Blitz game"]
 [Site "https://lichess.org/gEP0EI39"]
 [Date "2021.07.22"]
 [White "TuttlePower"]
@@ -1014,6 +1074,24 @@
 [Termination "Normal"]
 
 1. d4 e6 2. Bf4 Qf6 3. Nf3 c6 4. Nc3 Qxf4 5. e3 Qf6 6. Bd3 Bb4 7. O-O Bxc3 8. bxc3 Na6 9. c4 Nb4 10. d5 Nxd3 11. cxd3 cxd5 12. cxd5 exd5 13. Nd4 Nh6 14. Nb5 O-O 15. Nc7 Rb8 16. Qa4 Qd6 17. Rac1 Ng4 18. Qxg4 a6 19. Qg5 h6 20. Qxd5 Qg6 21. Qd4 d6 22. Nd5 Bh3 23. Ne7+ Kh7 24. Nxg6 fxg6 25. gxh3 Rf5 26. Rc7 Rg5+ 27. Kh1 Rg8 28. Rxb7 h5 29. Qxd6 Rc8 30. h4 Rg4 31. Qd7 Rg8 32. f3 Rxh4 33. Rg1 Kh6 34. Rb6 Rf8 35. f4 a5 36. Qd6 Rf6 37. Qc5 Rxb6 38. Qxb6 Rg4 39. Rxg4 hxg4 40. Qxa5 g3 41. hxg3 1-0
+
+
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/S9WblWYn"]
+[Date "2021.07.08"]
+[White "TuttlePower"]
+[Black "Pudge1014"]
+[Result "0-1"]
+[UTCDate "2021.07.08"]
+[UTCTime "00:11:09"]
+[WhiteElo "1845"]
+[BlackElo "1500"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "D00"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. Bf4 c5 3. Nf3 Nc6 4. e3 Nf6 5. Bb5 e6 6. Ne5 Bd7 7. O-O Nxe5 8. Bxd7+ Nexd7 9. Bg5 Be7 10. Nd2 h6 11. Bh4 Qc7 12. Bg3 Bd6 13. Nf3 Bxg3 14. fxg3 Ne4 15. Ne5 Nxe5 16. dxe5 Qxe5 17. Qf3 O-O 18. g4 Nd2 19. Qf4 Qxb2 20. Rfd1 Qxc2 21. h4 Ne4 22. g5 h5 23. Qf3 f6 24. g6 f5 25. Qxh5 Qf2+ 26. Kh2 Qg3+ 27. Kh1 Nf6 28. Qe2 Qxh4+ 29. Kg1 Ne4 30. Rf1 Ng3 31. Qf3 Rf6 0-1
 
 
 [Event "Casual Correspondence game"]
