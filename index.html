@@ -150,6 +150,11 @@
                 // Setting innerHTML as tab variable
                 document.getElementById("employees").innerHTML = tab;
         }
+
+        fetch('https://tuttlepower-flask.herokuapp.com/')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
     </script>
     </div>
 
