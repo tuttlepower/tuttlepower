@@ -1,4 +1,44 @@
 [Event "Rated Blitz game"]
+[Site "https://lichess.org/YgCOY5w9"]
+[Date "2021.07.28"]
+[White "tokorem"]
+[Black "TuttlePower"]
+[Result "1-0"]
+[UTCDate "2021.07.28"]
+[UTCTime "16:42:29"]
+[WhiteElo "1604"]
+[BlackElo "1527"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-4"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "C42"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. d3 d6 5. a3 Bc5 6. b4 Bb6 7. Na4 Nc6 8. Nxb6 axb6 9. c4 Nd4 10. Nxd4 exd4 11. Bg5 Bg4 12. f3 Bh5 13. Bxf6 gxf6 14. Be2 Qe7 15. Qc2 O-O-O 16. a4 c5 17. b5 Kc7 18. a5 bxa5 19. Rxa5 b6 20. Ra7+ Kc8 21. Rxe7 Rhg8 22. Qa4 Rxg2 23. Qa8# 1-0
+
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/KVBOefAa"]
+[Date "2021.07.28"]
+[White "TuttlePower"]
+[Black "Julian1604"]
+[Result "1-0"]
+[UTCDate "2021.07.28"]
+[UTCTime "16:40:53"]
+[WhiteElo "1522"]
+[BlackElo "1493"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-7"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "A80"]
+[Termination "Normal"]
+
+1. d4 f5 2. Bf4 Nf6 3. Nf3 e6 4. Ne5 d6 5. Nc4 Nc6 6. Nc3 g6 7. Bg5 Bg7 8. e3 O-O 9. Bd3 d5 10. Ne5 Nxe5 11. dxe5 1-0
+
+
+[Event "Rated Blitz game"]
 [Site "https://lichess.org/GBjVDWAV"]
 [Date "2021.07.28"]
 [White "TuttlePower"]
