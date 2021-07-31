@@ -1,4 +1,44 @@
 [Event "Rated Blitz game"]
+[Site "https://lichess.org/FUpLSt9e"]
+[Date "2021.07.31"]
+[White "TuttlePower"]
+[Black "Sal12"]
+[Result "0-1"]
+[UTCDate "2021.07.31"]
+[UTCTime "02:53:36"]
+[WhiteElo "1530"]
+[BlackElo "1609"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+5"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "B06"]
+[Termination "Normal"]
+
+1. e4 g6 2. Bc4 Bg7 3. Nc3 Nf6 4. Nf3 d6 5. d4 Nc6 6. d5 Na5 7. Bd3 b6 8. Be3 e6 9. dxe6 Bxe6 10. O-O O-O 11. Ng5 Bc8 12. b4 Nc6 13. Bc4 Ne5 14. Bb3 Nfg4 15. Qd5 Rb8 16. Nxf7 Nxf7 17. Ne2 Bb7 18. Qe6 Bxa1 19. Qxg4 Bg7 20. Ng3 Bc8 21. Nf5 gxf5 22. exf5 Kh8 23. Bh6 Qf6 24. Bxg7+ Qxg7 25. Qf4 Qe5 26. Qg4 Nh6 27. Qg5 Nxf5 28. f4 Qf6 29. Qg4 Ne3 30. Qf3 Nxf1 31. Qxf1 Be6 32. Bxe6 Qxe6 33. f5 Qe3+ 34. Kh1 Rbe8 35. f6 Qe1 36. Qxe1 Rxe1# 0-1
+
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/JMVFqpvh"]
+[Date "2021.07.31"]
+[White "Sal12"]
+[Black "TuttlePower"]
+[Result "0-1"]
+[UTCDate "2021.07.31"]
+[UTCTime "02:51:14"]
+[WhiteElo "1616"]
+[BlackElo "1523"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[Variant "Standard"]
+[TimeControl "180+0"]
+[ECO "A01"]
+[Termination "Normal"]
+
+1. b3 e5 2. Bb2 Bb4 3. e3 Nc6 4. Nc3 d5 5. Nf3 d4 6. exd4 exd4 7. Ne2 Bg4 8. a3 Bc5 9. b4 Bb6 10. Nfg1 Nf6 11. h3 Bh5 12. g4 Bg6 13. Nf3 d3 14. cxd3 Bxd3 15. Bg2 O-O 16. O-O Ne4 17. Ne1 Bxf2+ 18. Rxf2 Nxf2 19. Kxf2 Qf6+ 20. Kg1 Qxb2 0-1
+
+
+[Event "Rated Blitz game"]
 [Site "https://lichess.org/YgCOY5w9"]
 [Date "2021.07.28"]
 [White "tokorem"]
@@ -7502,7 +7542,7 @@
 1. d4 e5 2. Nc3 e4 3. Nxe4 d5 4. Nc3 c6 5. Bg5 Nf6 6. Nf3 h6 7. e3 hxg5 8. Nxg5 g6 9. Qf3 Ne4 10. Qxf7# 1-0
 
 
-[Event "Rated Crazyhouse tournament https://lichess.org/tournament/RXgtfEmh"]
+[Event "Daily Crazyhouse Arena"]
 [Site "https://lichess.org/QyzHxJZV"]
 [Date "2021.04.30"]
 [White "TuttlePower"]
@@ -7522,7 +7562,7 @@
 1. d4 e5 2. dxe5 Qh4 3. Nf3 Qb4+ 4. Bd2 Qxb2 5. Nc3 Qa3 6. Nd5 Qe7 7. Nxe7 Bxe7 8. P@d6 cxd6 9. exd6 Bxd6 10. Q@e3+ Ne7 11. P@c5 N@c4 12. Qd4 Nec6 13. Qxg7 Be5 14. Qg5 Bd6 15. P@g7 Rg8 16. Bb4 Be7 17. Qgd5 Nxb4 18. Qxc4 Rxg7 19. N@c7+ Kd8 20. Nxa8 d6 21. Qxb4 Ke8 22. cxd6 Bf6 23. Qb5+ Nd7 24. Nc7+ Kd8 25. Nd5 a6 26. Qa5+ Ke8 27. Nxf6+ Nxf6 28. R@h8+ Rg8 29. d7+ Bxd7 30. Rxg8+ Nxg8 31. R@a8+ Ke7 32. Qd8+ Ke6 33. Q1xd7# 1-0
 
 
-[Event "Rated Crazyhouse tournament https://lichess.org/tournament/RXgtfEmh"]
+[Event "Daily Crazyhouse Arena"]
 [Site "https://lichess.org/6lpMcAvy"]
 [Date "2021.04.30"]
 [White "teresa3"]
@@ -7542,7 +7582,7 @@
 1. e4 e5 2. Nf3 Bb4 3. Bc4 Nf6 4. c3 Ba5 5. b4 Bb6 6. O-O c6 7. Qb3 d5 8. exd5 cxd5 9. Bb5+ Nc6 10. Bxc6+ bxc6 11. Nxe5 B@a6 12. P@e2 Bxe2 13. Re1 Bxf2+ 14. Kxf2 Ne4+ 15. Kxe2 P@f3+ 16. Kxf3 Ng5+ 17. Kf2 Qf6+ 18. B@f3 Nxf3 19. Nxf3+ Be6 20. N@c7+ Ke7 21. Nxa8 B@b6+ 22. Nxb6 axb6 23. R@c7+ P@d7 24. P@e5 N@d3+ 25. Kf1 Qf4 26. B@g3 P@e2+ 27. Kg1 Qg4 28. B@h3 Qg6 29. Bxe6 Qxe6 30. B@h4+ f6 31. exf6+ gxf6 32. N@d4 Qd6 33. Rxe2+ P@e5 34. Ra7 B@c5 35. P@f5 Nxc1 36. Qd1 Nd3 37. bxc5 bxc5 38. B@c7 Nb2 39. Bxd6+ Kxd6 40. Qc2 Nc4 41. Ra6 P@e6 42. Nxc6 exf5 43. Ncd4+ Ke7 44. Nxf5+ Kf7 45. Q@h5+ Kf8 0-1
 
 
-[Event "Rated Crazyhouse tournament https://lichess.org/tournament/RXgtfEmh"]
+[Event "Daily Crazyhouse Arena"]
 [Site "https://lichess.org/OINmxBWY"]
 [Date "2021.04.30"]
 [White "Rengaw22"]
@@ -7562,7 +7602,7 @@
 1. e4 e5 2. Bc4 Nf6 3. d3 d5 4. exd5 Nxd5 5. Qh5 P@g6 6. Qf3 f6 7. Qxd5 Qxd5 8. Bxd5 Bb4+ 9. c3 Ba5 10. Q@f7+ Kd8 11. P@e7+ Kd7 12. Be6+ Kc6 13. e8=Q+ Rxe8 14. Qxe8+ Bd7 15. R@c4+ Kd6 16. N@f7# 1-0
 
 
-[Event "Rated Crazyhouse tournament https://lichess.org/tournament/RXgtfEmh"]
+[Event "Daily Crazyhouse Arena"]
 [Site "https://lichess.org/bRKmfPFo"]
 [Date "2021.04.30"]
 [White "TuttlePower"]
@@ -7582,7 +7622,7 @@
 1. d4 Nf6 2. Nc3 d6 3. Bg5 Nc6 4. Bxf6 exf6 5. Nf3 Bg4 6. h3 Bxf3 7. gxf3 Be7 8. B@g4 O-O 9. Qd3 B@g6 10. O-O-O a6 11. e4 Nb4 12. Qe3 c6 13. a3 N@a2+ 14. Nxa2 Nxa2+ 15. Kb1 N@c3+ 16. bxc3 Nxc3+ 17. Qxc3 d5 18. N@e6 fxe6 19. Bxe6+ P@f7 20. Bg4 h5 21. Bf5 Qb6+ 22. P@b2 N@a4 23. N@d7 Nxc3+ 24. Kc1 Q@b1+ 25. Kd2 Qxd4+ 26. Ke1 Qbxd1# 0-1
 
 
-[Event "Rated Crazyhouse tournament https://lichess.org/tournament/RXgtfEmh"]
+[Event "Daily Crazyhouse Arena"]
 [Site "https://lichess.org/AdruDf3h"]
 [Date "2021.04.30"]
 [White "Lourdes-Scully"]
@@ -7602,7 +7642,7 @@
 1. e4 Nf6 2. Bc4 e5 3. Bxf7+ Kxf7 4. Nf3 d5 5. Nxe5+ Ke6 6. P@d7 Bxd7 7. Nxd7 Qxd7 8. B@f5+ Ke5 9. Bxd7 Nbxd7 10. d4+ Kxe4 11. O-O B@a6 12. P@d3+ Kxd4 13. Q@e3# 1-0
 
 
-[Event "Rated Crazyhouse tournament https://lichess.org/tournament/RXgtfEmh"]
+[Event "Daily Crazyhouse Arena"]
 [Site "https://lichess.org/wK5epjIS"]
 [Date "2021.04.30"]
 [White "TuttlePower"]
@@ -7622,7 +7662,7 @@
 1. d4 d5 2. Nc3 Bf5 3. Bf4 Bg6 4. Nf3 e6 5. e3 Bd6 6. Bd3 Bxf4 7. exf4 B@g4 8. O-O Bxd3 9. Qxd3 B@h5 10. B@f5 exf5 11. B@g5 B@f6 12. Rae1+ Ne7 13. Bxf6 gxf6 14. B@b5+ Nc6 15. Rxe7+ Qxe7 16. Nxd5 Bxf3 17. gxf3 Rg8+ 18. P@g2 N@h3+ 19. Kh1 R@g1+ 20. Rxg1 Nxf2# 0-1
 
 
-[Event "Rated Crazyhouse tournament https://lichess.org/tournament/RXgtfEmh"]
+[Event "Daily Crazyhouse Arena"]
 [Site "https://lichess.org/VORrENqD"]
 [Date "2021.04.30"]
 [White "TuttlePower"]
