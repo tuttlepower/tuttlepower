@@ -12,7 +12,7 @@ jobs:
       uses: foo-software/lighthouse-check-action@master
       with:
         outputDirectory: /tmp/artifacts
-        urls: 'https://www.tuttlepower.com/,https://www.tuttlepower.com/index2.html'
+        urls: 'https://www.tuttlepower.com'
     - name: Upload artifacts
       uses: actions/upload-artifact@master
       with:
